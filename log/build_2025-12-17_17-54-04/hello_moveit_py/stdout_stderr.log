@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/hello_moveit_py/hello_moveit_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/hello_moveit_py/hello_moveit_py.egg-info/dependency_links.txt
+writing entry points to ../../build/hello_moveit_py/hello_moveit_py.egg-info/entry_points.txt
+writing requirements to ../../build/hello_moveit_py/hello_moveit_py.egg-info/requires.txt
+writing top-level names to ../../build/hello_moveit_py/hello_moveit_py.egg-info/top_level.txt
+reading manifest file '../../build/hello_moveit_py/hello_moveit_py.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/hello_moveit_py/hello_moveit_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying hello_moveit_py/hello_moveit_py.py -> /home/luka/ws_moveit/build/hello_moveit_py/build/lib/hello_moveit_py
+running install
+running install_lib
+copying /home/luka/ws_moveit/build/hello_moveit_py/build/lib/hello_moveit_py/hello_moveit_py.py -> /home/luka/ws_moveit/install/hello_moveit_py/lib/python3.12/site-packages/hello_moveit_py
+byte-compiling /home/luka/ws_moveit/install/hello_moveit_py/lib/python3.12/site-packages/hello_moveit_py/hello_moveit_py.py to hello_moveit_py.cpython-312.pyc
+running install_data
+copying package.xml -> /home/luka/ws_moveit/install/hello_moveit_py/share/hello_moveit_py
+running install_egg_info
+removing '/home/luka/ws_moveit/install/hello_moveit_py/lib/python3.12/site-packages/hello_moveit_py-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/hello_moveit_py/hello_moveit_py.egg-info to /home/luka/ws_moveit/install/hello_moveit_py/lib/python3.12/site-packages/hello_moveit_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing hello_moveit_py script to /home/luka/ws_moveit/install/hello_moveit_py/lib/hello_moveit_py
+writing list of installed files to '/home/luka/ws_moveit/build/hello_moveit_py/install.log'

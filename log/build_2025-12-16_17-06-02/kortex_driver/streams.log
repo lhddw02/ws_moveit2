@@ -1,0 +1,87 @@
+[0.010s] Invoking command in '/home/luka/ws_moveit/build/kortex_driver': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/ros2_kortex/kortex_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/kortex_driver
+[0.023s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FetchContent.cmake:1331 (message):
+[0.023s]   The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+[0.023s]   not set.  The policy's OLD behavior will be used.  When using a URL
+[0.023s]   download, the timestamps of extracted files should preferably be that of
+[0.024s]   the time of extraction, otherwise code that depends on the extracted
+[0.024s]   contents might not be rebuilt if the URL changes.  The OLD behavior
+[0.024s]   preserves the timestamps from the archive instead, but this is usually not
+[0.024s]   what you want.  Update your project to the NEW behavior or specify the
+[0.024s]   DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+[0.024s]   robustness issue.
+[0.024s] Call Stack (most recent call first):
+[0.024s]   CMakeLists.txt:3 (FetchContent_Declare)
+[0.025s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.025s] [0m
+[27.709s] -- The C compiler identification is GNU 13.3.0
+[27.790s] -- The CXX compiler identification is GNU 13.3.0
+[27.809s] -- Detecting C compiler ABI info
+[27.920s] -- Detecting C compiler ABI info - done
+[27.930s] -- Check for working C compiler: /usr/bin/cc - skipped
+[27.931s] -- Detecting C compile features
+[27.931s] -- Detecting C compile features - done
+[27.944s] -- Detecting CXX compiler ABI info
+[28.073s] -- Detecting CXX compiler ABI info - done
+[28.088s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[28.089s] -- Detecting CXX compile features
+[28.089s] -- Detecting CXX compile features - done
+[28.105s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[28.304s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[28.463s] -- Found hardware_interface: 4.39.2 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[28.545s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[28.574s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[28.614s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[28.646s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[28.989s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[29.065s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[29.071s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[29.112s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[29.192s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[29.198s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[29.220s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[29.223s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[29.234s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[29.253s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[29.641s] -- Found kortex_api: 0.2.3 (/home/luka/ws_moveit/install/kortex_api/share/kortex_api/cmake)
+[29.763s] -- Configuring done (29.7s)
+[29.797s] -- Generating done (0.0s)
+[29.804s] -- Build files have been written to: /home/luka/ws_moveit/build/kortex_driver
+[29.818s] Invoked command in '/home/luka/ws_moveit/build/kortex_driver' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/ros2_kortex/kortex_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/kortex_driver
+[29.819s] Invoking command in '/home/luka/ws_moveit/build/kortex_driver': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/kortex_driver -- -j4 -l4
+[29.888s] [ 33%] [32mBuilding CXX object CMakeFiles/kortex_driver.dir/src/kortex_math_util.cpp.o[0m
+[29.889s] [ 66%] [32mBuilding CXX object CMakeFiles/kortex_driver.dir/src/hardware_interface.cpp.o[0m
+[40.606s] [100%] [32m[1mLinking CXX shared library libkortex_driver.so[0m
+[41.416s] [100%] Built target kortex_driver
+[41.433s] Invoked command in '/home/luka/ws_moveit/build/kortex_driver' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/kortex_driver -- -j4 -l4
+[41.435s] Invoking command in '/home/luka/ws_moveit/build/kortex_driver': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/kortex_driver
+[41.444s] -- Install configuration: "Release"
+[41.445s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/hardware_interface_plugin.xml
+[41.445s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/lib/libkortex_driver.so
+[41.454s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/kortex_driver/lib/libkortex_driver.so" to ""
+[41.454s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/include
+[41.455s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/include/kortex_driver
+[41.455s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/include/kortex_driver/visibility_control.h
+[41.455s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/include/kortex_driver/hardware_interface.hpp
+[41.455s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/include/kortex_driver/kortex_math_util.hpp
+[41.455s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/environment/library_path.sh
+[41.455s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/environment/library_path.dsv
+[41.456s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/ament_index/resource_index/package_run_dependencies/kortex_driver
+[41.456s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/ament_index/resource_index/parent_prefix_path/kortex_driver
+[41.456s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/environment/ament_prefix_path.sh
+[41.456s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/environment/ament_prefix_path.dsv
+[41.456s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/environment/path.sh
+[41.457s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/environment/path.dsv
+[41.457s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/local_setup.bash
+[41.457s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/local_setup.sh
+[41.457s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/local_setup.zsh
+[41.457s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/local_setup.dsv
+[41.457s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/package.dsv
+[41.458s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/ament_index/resource_index/packages/kortex_driver
+[41.458s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/kortex_driver
+[41.458s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.458s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[41.458s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.458s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/cmake/kortex_driverConfig.cmake
+[41.459s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/cmake/kortex_driverConfig-version.cmake
+[41.459s] -- Installing: /home/luka/ws_moveit/install/kortex_driver/share/kortex_driver/package.xml
+[41.461s] Invoked command in '/home/luka/ws_moveit/build/kortex_driver' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/kortex_api:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/kortex_driver

@@ -1,0 +1,33 @@
+[0.024s] Invoking command in '/home/luka/ws_moveit/build/yolov8_obb_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/yolov8_obb_msgs -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/yolov8_obb_msgs
+[0.111s] -- The C compiler identification is GNU 13.3.0
+[0.183s] -- The CXX compiler identification is GNU 13.3.0
+[0.207s] -- Detecting C compiler ABI info
+[0.342s] -- Detecting C compiler ABI info - done
+[0.354s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.354s] -- Detecting C compile features
+[0.355s] -- Detecting C compile features - done
+[0.367s] -- Detecting CXX compiler ABI info
+[0.515s] -- Detecting CXX compiler ABI info - done
+[0.529s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.529s] -- Detecting CXX compile features
+[0.530s] -- Detecting CXX compile features - done
+[0.544s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.847s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.118s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.263s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.312s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.368s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.426s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.516s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.591s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.970s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[1.970s]   ament_package_xml() package name 'yolov8_obb_msgs' in '/package.xml' does
+[1.970s]   not match current PROJECT_NAME 'yolov8_msgs'.  You must call project() with
+[1.970s]   the same package name before.
+[1.970s] Call Stack (most recent call first):
+[1.971s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)
+[1.971s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[1.971s] 
+[1.971s] [0m
+[1.971s] -- Configuring incomplete, errors occurred!
+[1.980s] Invoked command in '/home/luka/ws_moveit/build/yolov8_obb_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/yolov8_obb_msgs -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/yolov8_obb_msgs

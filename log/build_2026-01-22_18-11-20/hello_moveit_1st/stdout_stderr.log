@@ -1,0 +1,26 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit_1st.dir/src/hello_moveit_1st.cpp.o[0m
+[100%] [32m[1mLinking CXX executable hello_moveit_1st[0m
+[100%] Built target hello_moveit_1st
+-- Install configuration: "Release"
+-- Installing: /home/luka/ws_moveit/install/hello_moveit_1st/lib/hello_moveit_1st/hello_moveit_1st
+-- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/hello_moveit_1st/lib/hello_moveit_1st/hello_moveit_1st" to ""
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/lib/hello_moveit_1st/hello_moveit.py
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/launch
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/launch/launch.py
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/scripts
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/scripts/hello_moveit.py
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/ament_index/resource_index/package_run_dependencies/hello_moveit_1st
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/ament_index/resource_index/parent_prefix_path/hello_moveit_1st
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/environment/ament_prefix_path.sh
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/environment/path.sh
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/environment/path.dsv
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/local_setup.bash
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/local_setup.sh
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/local_setup.zsh
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/local_setup.dsv
+-- Installing: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/package.dsv
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/ament_index/resource_index/packages/hello_moveit_1st
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/cmake/hello_moveit_1stConfig.cmake
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/cmake/hello_moveit_1stConfig-version.cmake
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/package.xml

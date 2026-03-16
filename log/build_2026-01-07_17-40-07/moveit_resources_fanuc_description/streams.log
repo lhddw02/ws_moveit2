@@ -1,0 +1,45 @@
+[0.034s] Invoking command in '/home/luka/ws_moveit/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/moveit_resources/fanuc_description -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/moveit_resources_fanuc_description
+[0.090s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.120s] -- Configuring done (1.1s)
+[1.148s] -- Generating done (0.0s)
+[1.164s] -- Build files have been written to: /home/luka/ws_moveit/build/moveit_resources_fanuc_description
+[1.177s] Invoked command in '/home/luka/ws_moveit/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/moveit_resources/fanuc_description -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/moveit_resources_fanuc_description
+[1.178s] Invoking command in '/home/luka/ws_moveit/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/moveit_resources_fanuc_description -- -j4 -l4
+[1.373s] Invoked command in '/home/luka/ws_moveit/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/moveit_resources_fanuc_description -- -j4 -l4
+[1.374s] Invoking command in '/home/luka/ws_moveit/build/moveit_resources_fanuc_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/moveit_resources_fanuc_description
+[1.404s] -- Install configuration: "Release"
+[1.405s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/ament_index/resource_index/package_run_dependencies/moveit_resources_fanuc_description
+[1.405s] -- Installing: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/ament_index/resource_index/parent_prefix_path/moveit_resources_fanuc_description
+[1.406s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/environment/ament_prefix_path.sh
+[1.406s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/environment/ament_prefix_path.dsv
+[1.406s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/environment/path.sh
+[1.406s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/environment/path.dsv
+[1.407s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/local_setup.bash
+[1.407s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/local_setup.sh
+[1.407s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/local_setup.zsh
+[1.407s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/local_setup.dsv
+[1.407s] -- Installing: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.dsv
+[1.409s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/ament_index/resource_index/packages/moveit_resources_fanuc_description
+[1.410s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/cmake/moveit_resources_fanuc_descriptionConfig.cmake
+[1.413s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/cmake/moveit_resources_fanuc_descriptionConfig-version.cmake
+[1.413s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/package.xml
+[1.413s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes
+[1.413s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual
+[1.413s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/base_link.stl
+[1.418s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_1.stl
+[1.418s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_2.stl
+[1.418s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_3.stl
+[1.418s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_5.stl
+[1.419s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_6.stl
+[1.419s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/visual/link_4.stl
+[1.419s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision
+[1.419s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/base_link.stl
+[1.419s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_1.stl
+[1.419s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_2.stl
+[1.419s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_3.stl
+[1.419s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_5.stl
+[1.420s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_6.stl
+[1.431s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/meshes/collision/link_4.stl
+[1.431s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/urdf
+[1.431s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/urdf/fanuc.urdf
+[1.431s] Invoked command in '/home/luka/ws_moveit/build/moveit_resources_fanuc_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/moveit_resources_fanuc_description

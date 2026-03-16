@@ -1,0 +1,4 @@
+source;share/plan_around_obj/local_setup.bash
+source;share/plan_around_obj/local_setup.dsv
+source;share/plan_around_obj/local_setup.sh
+source;share/plan_around_obj/local_setup.zsh

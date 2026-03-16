@@ -1,0 +1,94 @@
+[0.117s] Invoking command in '/home/luka/ws_moveit/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/ros2_robotiq_gripper/robotiq_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/robotiq_description
+[0.721s] -- The C compiler identification is GNU 13.3.0
+[1.377s] -- The CXX compiler identification is GNU 13.3.0
+[1.510s] -- Detecting C compiler ABI info
+[2.110s] -- Detecting C compiler ABI info - done
+[2.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.173s] -- Detecting C compile features
+[2.177s] -- Detecting C compile features - done
+[2.239s] -- Detecting CXX compiler ABI info
+[2.864s] -- Detecting CXX compiler ABI info - done
+[2.952s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.954s] -- Detecting CXX compile features
+[2.960s] -- Detecting CXX compile features - done
+[2.988s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.001s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.536s] -- Configuring done (5.3s)
+[5.551s] -- Generating done (0.0s)
+[5.568s] -- Build files have been written to: /home/luka/ws_moveit/build/robotiq_description
+[5.593s] Invoked command in '/home/luka/ws_moveit/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/ros2_robotiq_gripper/robotiq_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/robotiq_description
+[5.599s] Invoking command in '/home/luka/ws_moveit/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/robotiq_description -- -j4 -l4
+[5.906s] Invoked command in '/home/luka/ws_moveit/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/robotiq_description -- -j4 -l4
+[5.922s] Invoking command in '/home/luka/ws_moveit/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/robotiq_description
+[5.998s] -- Install configuration: "Release"
+[6.005s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/config
+[6.006s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/config/robotiq_controllers.yaml
+[6.012s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/launch
+[6.013s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/launch/view_gripper.launch.py
+[6.020s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/launch/robotiq_control.launch.py
+[6.021s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes
+[6.022s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual
+[6.023s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+[6.026s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_inner_knuckle.dae
+[6.027s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_knuckle.dae
+[6.027s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/ur_to_robotiq_adapter.dae
+[6.028s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_finger_tip.dae
+[6.039s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_finger_tip.dae
+[6.046s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_finger.dae
+[6.051s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_finger.dae
+[6.053s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/robotiq_base.dae
+[6.060s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_inner_knuckle.dae
+[6.068s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_knuckle.dae
+[6.082s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+[6.087s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_coupling.stl
+[6.087s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_finger.stl
+[6.098s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_base_link.stl
+[6.102s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_knuckle.stl
+[6.104s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_finger.stl
+[6.106s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_knuckle.stl
+[6.108s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision
+[6.111s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+[6.114s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_inner_knuckle.stl
+[6.117s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_finger.stl
+[6.121s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_finger_tip.stl
+[6.124s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_knuckle.stl
+[6.126s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_inner_knuckle.stl
+[6.126s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_knuckle.stl
+[6.127s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_finger.stl
+[6.128s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/robotiq_base.stl
+[6.133s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_finger_tip.stl
+[6.140s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/ur_to_robotiq_adapter.stl
+[6.141s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+[6.141s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_coupling.stl
+[6.143s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_finger.stl
+[6.152s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_base_link.stl
+[6.155s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_knuckle.stl
+[6.156s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_finger.stl
+[6.157s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_knuckle.stl
+[6.162s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/rviz
+[6.163s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/rviz/view_urdf.rviz
+[6.166s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/urdf
+[6.167s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/urdf/ur_to_robotiq_adapter.urdf.xacro
+[6.168s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140.xacro
+[6.168s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140_macro.urdf.xacro
+[6.169s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140_gripper.urdf.xacro
+[6.172s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_macro.urdf.xacro
+[6.173s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_gripper.urdf.xacro
+[6.173s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/urdf/2f_85.ros2_control.xacro
+[6.174s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/urdf/2f_140.ros2_control.xacro
+[6.182s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/ament_index/resource_index/package_run_dependencies/robotiq_description
+[6.182s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/ament_index/resource_index/parent_prefix_path/robotiq_description
+[6.183s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.sh
+[6.187s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.dsv
+[6.188s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/environment/path.sh
+[6.188s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/environment/path.dsv
+[6.190s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/local_setup.bash
+[6.194s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/local_setup.sh
+[6.195s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/local_setup.zsh
+[6.195s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/local_setup.dsv
+[6.199s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/package.dsv
+[6.203s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/ament_index/resource_index/packages/robotiq_description
+[6.207s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake
+[6.207s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake
+[6.212s] -- Installing: /home/luka/ws_moveit/install/robotiq_description/share/robotiq_description/package.xml
+[6.213s] Invoked command in '/home/luka/ws_moveit/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/robotiq_description

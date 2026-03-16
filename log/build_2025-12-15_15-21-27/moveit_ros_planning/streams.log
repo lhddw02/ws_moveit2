@@ -1,0 +1,376 @@
+[0.118s] Invoking command in '/home/luka/ws_moveit/build/moveit_ros_planning': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/luka/ws_moveit/install/moveit_core:/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config:/home/luka/ws_moveit/install/moveit_resources_pr2_description:/home/luka/ws_moveit/install/moveit_resources_panda_description:/home/luka/ws_moveit/install/moveit_msgs:/home/luka/ws_moveit/install/moveit_configs_utils:/home/luka/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/luka/ws_moveit/install/moveit_core:/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config:/home/luka/ws_moveit/install/moveit_resources_pr2_description:/home/luka/ws_moveit/install/moveit_resources_panda_description:/home/luka/ws_moveit/install/moveit_msgs:/home/luka/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/luka/ws_moveit/install/moveit_core/lib:/home/luka/ws_moveit/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/luka/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/luka/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/luka/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/luka/ws_moveit/src/moveit2/moveit_ros/planning -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/moveit_ros_planning
+[0.593s] -- The CXX compiler identification is GNU 13.3.0
+[0.716s] -- Detecting CXX compiler ABI info
+[1.376s] -- Detecting CXX compiler ABI info - done
+[1.447s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.447s] -- Detecting CXX compile features
+[1.450s] -- Detecting CXX compile features - done
+[1.458s] -- Found moveit_common: 2.14.1 (/home/luka/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+[1.475s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.209s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.295s] -- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+[3.393s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[3.425s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[3.764s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.862s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.980s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.206s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.963s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.008s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[6.100s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[6.300s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.481s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.315s] -- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[7.668s] -- Found message_filters: 4.11.9 (/opt/ros/jazzy/share/message_filters/cmake)
+[7.871s] -- Found moveit_core: 2.14.1 (/home/luka/ws_moveit/install/moveit_core/share/moveit_core/cmake)
+[9.252s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[9.823s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[10.973s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.974s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[14.025s] -- Found moveit_ros_occupancy_map_monitor: 2.14.1 (/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake)
+[14.180s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[14.512s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[15.228s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[15.236s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[16.244s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[16.246s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[17.078s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[17.203s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[17.258s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[17.573s] -- The C compiler identification is GNU 13.3.0
+[17.670s] -- Detecting C compiler ABI info
+[18.376s] -- Detecting C compiler ABI info - done
+[18.424s] -- Check for working C compiler: /usr/bin/cc - skipped
+[18.426s] -- Detecting C compile features
+[18.428s] -- Detecting C compile features - done
+[18.447s] -- Found Threads: TRUE  
+[18.519s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[18.559s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[18.585s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[18.609s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[18.757s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[18.758s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[18.788s] -- Found ros_testing: 0.6.0 (/opt/ros/jazzy/share/ros_testing/cmake)
+[18.810s] -- Found launch_testing_ament_cmake: 3.4.9 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+[18.834s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[19.985s] -- Found PythonExtra: /usr/bin/python3  
+[19.993s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[19.996s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[20.274s] -- Found launch_testing_ament_cmake: 3.4.9 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+[20.277s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[21.433s] -- Configuring done (21.3s)
+[24.556s] -- Generating done (2.5s)
+[25.140s] -- Build files have been written to: /home/luka/ws_moveit/build/moveit_ros_planning
+[25.268s] Invoked command in '/home/luka/ws_moveit/build/moveit_ros_planning' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/luka/ws_moveit/install/moveit_core:/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config:/home/luka/ws_moveit/install/moveit_resources_pr2_description:/home/luka/ws_moveit/install/moveit_resources_panda_description:/home/luka/ws_moveit/install/moveit_msgs:/home/luka/ws_moveit/install/moveit_configs_utils:/home/luka/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/luka/ws_moveit/install/moveit_core:/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config:/home/luka/ws_moveit/install/moveit_resources_pr2_description:/home/luka/ws_moveit/install/moveit_resources_panda_description:/home/luka/ws_moveit/install/moveit_msgs:/home/luka/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/luka/ws_moveit/install/moveit_core/lib:/home/luka/ws_moveit/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/luka/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/luka/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/luka/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/luka/ws_moveit/src/moveit2/moveit_ros/planning -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/moveit_ros_planning
+[25.274s] Invoking command in '/home/luka/ws_moveit/build/moveit_ros_planning': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/luka/ws_moveit/install/moveit_core:/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config:/home/luka/ws_moveit/install/moveit_resources_pr2_description:/home/luka/ws_moveit/install/moveit_resources_panda_description:/home/luka/ws_moveit/install/moveit_msgs:/home/luka/ws_moveit/install/moveit_configs_utils:/home/luka/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/luka/ws_moveit/install/moveit_core:/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config:/home/luka/ws_moveit/install/moveit_resources_pr2_description:/home/luka/ws_moveit/install/moveit_resources_panda_description:/home/luka/ws_moveit/install/moveit_msgs:/home/luka/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/luka/ws_moveit/install/moveit_core/lib:/home/luka/ws_moveit/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/luka/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/luka/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/luka/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/luka/ws_moveit/build/moveit_ros_planning -- -j4 -l4
+[25.708s] [  1%] [32mBuilding CXX object CMakeFiles/srdf_publisher.dir/rclcpp_components/node_main_srdf_publisher.cpp.o[0m
+[49.256s] [  2%] [32m[1mLinking CXX executable srdf_publisher[0m
+[50.073s] [  2%] Built target srdf_publisher
+[50.191s] [  3%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/luka/ws_moveit/build/moveit_ros_planning/kinematics_plugin_loader/include/moveit_ros_planning/kinematics_parameters.hpp /home/luka/ws_moveit/src/moveit2/moveit_ros/planning/kinematics_plugin_loader/src/kinematics_parameters.yaml `[0m
+[53.783s] [  4%] [34m[1mCreating deprecated header file /home/luka/ws_moveit/build/moveit_ros_planning/kinematics_plugin_loader/include/kinematics_parameters.hpp[0m
+[53.851s] [  4%] Built target kinematics_parameters
+[53.931s] [  5%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/luka/ws_moveit/build/moveit_ros_planning/planning_pipeline/include/moveit_ros_planning/planning_pipeline_parameters.hpp /home/luka/ws_moveit/src/moveit2/moveit_ros/planning/planning_pipeline/res/planning_pipeline_parameters.yaml `[0m
+[57.924s] [  6%] [34m[1mCreating deprecated header file /home/luka/ws_moveit/build/moveit_ros_planning/planning_pipeline/include/planning_pipeline_parameters.hpp[0m
+[58.027s] [  6%] Built target planning_pipeline_parameters
+[58.154s] [  7%] [32mBuilding CXX object planning_pipeline/CMakeFiles/moveit_pipeline_test_plugins.dir/test/planning_pipeline_test_plugins.cpp.o[0m
+[103.020s] [  8%] [32m[1mLinking CXX shared library libmoveit_pipeline_test_plugins.so[0m
+[103.979s] [  8%] Built target moveit_pipeline_test_plugins
+[104.105s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[109.377s] [ 11%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[109.662s] [ 11%] Built target gtest_main
+[109.785s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[167.866s] [ 13%] [32m[1mLinking CXX static library libgtest.a[0m
+[168.191s] [ 13%] Built target gtest
+[168.299s] [ 14%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/luka/ws_moveit/build/moveit_ros_planning/planning_request_adapter_plugins/include/moveit_ros_planning/default_request_adapter_parameters.hpp /home/luka/ws_moveit/src/moveit2/moveit_ros/planning/planning_request_adapter_plugins/res/default_request_adapter_params.yaml `[0m
+[172.573s] [ 15%] [34m[1mCreating deprecated header file /home/luka/ws_moveit/build/moveit_ros_planning/planning_request_adapter_plugins/include/default_request_adapter_parameters.hpp[0m
+[172.686s] [ 15%] Built target default_request_adapter_parameters
+[172.816s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[180.072s] [ 17%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[180.465s] [ 17%] Built target gmock_main
+[180.620s] [ 19%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[240.923s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[262.269s] [ 21%] [32m[1mLinking CXX static library libgmock.a[0m
+[262.607s] [ 21%] Built target gmock
+[262.706s] [ 22%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/luka/ws_moveit/build/moveit_ros_planning/planning_response_adapter_plugins/include/moveit_ros_planning/default_response_adapter_parameters.hpp /home/luka/ws_moveit/src/moveit2/moveit_ros/planning/planning_response_adapter_plugins/res/default_response_adapter_params.yaml `[0m
+[265.859s] [ 23%] [34m[1mCreating deprecated header file /home/luka/ws_moveit/build/moveit_ros_planning/planning_response_adapter_plugins/include/default_response_adapter_parameters.hpp[0m
+[265.958s] [ 23%] Built target default_response_adapter_parameters
+[266.107s] [ 24%] [32mBuilding CXX object rdf_loader/CMakeFiles/moveit_rdf_loader.dir/src/rdf_loader.cpp.o[0m
+[266.144s] [ 25%] [32mBuilding CXX object srdf_publisher_node/CMakeFiles/srdf_publisher_node.dir/src/srdf_publisher_node.cpp.o[0m
+[268.438s] [ 26%] [32mBuilding CXX object planning_pipeline/CMakeFiles/moveit_planning_pipeline.dir/src/planning_pipeline.cpp.o[0m
+[269.612s] [ 28%] [32mBuilding CXX object collision_plugin_loader/CMakeFiles/moveit_collision_plugin_loader.dir/src/collision_plugin_loader.cpp.o[0m
+[350.129s] [ 29%] [32mBuilding CXX object rdf_loader/CMakeFiles/moveit_rdf_loader.dir/src/synchronized_string_parameter.cpp.o[0m
+[368.940s] [ 30%] [32m[1mLinking CXX shared library libsrdf_publisher_node.so[0m
+[373.026s] [ 30%] Built target srdf_publisher_node
+[398.276s] [ 31%] [32m[1mLinking CXX shared library libmoveit_collision_plugin_loader.so[0m
+[402.639s] [ 31%] Built target moveit_collision_plugin_loader
+[474.464s] [ 32%] [32m[1mLinking CXX shared library libmoveit_rdf_loader.so[0m
+[478.264s] [ 32%] Built target moveit_rdf_loader
+[495.771s] [ 33%] [32m[1mLinking CXX shared library libmoveit_planning_pipeline.so[0m
+[496.905s] [ 33%] Built target moveit_planning_pipeline
+[497.017s] [ 34%] [32mBuilding CXX object constraint_sampler_manager_loader/CMakeFiles/moveit_constraint_sampler_manager_loader.dir/src/constraint_sampler_manager_loader.cpp.o[0m
+[566.867s] [ 35%] [32m[1mLinking CXX shared library libmoveit_constraint_sampler_manager_loader.so[0m
+[567.794s] [ 35%] Built target moveit_constraint_sampler_manager_loader
+[567.897s] [ 37%] [32mBuilding CXX object kinematics_plugin_loader/CMakeFiles/moveit_kinematics_plugin_loader.dir/src/kinematics_plugin_loader.cpp.o[0m
+[618.402s] [ 38%] [32m[1mLinking CXX shared library libmoveit_kinematics_plugin_loader.so[0m
+[619.278s] [ 38%] Built target moveit_kinematics_plugin_loader
+[619.376s] [ 39%] [32mBuilding CXX object planning_pipeline_interfaces/CMakeFiles/moveit_planning_pipeline_interfaces.dir/src/planning_pipeline_interfaces.cpp.o[0m
+[678.687s] [ 40%] [32mBuilding CXX object planning_pipeline_interfaces/CMakeFiles/moveit_planning_pipeline_interfaces.dir/src/plan_responses_container.cpp.o[0m
+[710.295s] [ 41%] [32mBuilding CXX object planning_pipeline_interfaces/CMakeFiles/moveit_planning_pipeline_interfaces.dir/src/solution_selection_functions.cpp.o[0m
+[740.370s] [ 42%] [32mBuilding CXX object planning_pipeline_interfaces/CMakeFiles/moveit_planning_pipeline_interfaces.dir/src/stopping_criterion_function.cpp.o[0m
+[766.748s] [ 43%] [32m[1mLinking CXX shared library libmoveit_planning_pipeline_interfaces.so[0m
+[767.360s] [ 43%] Built target moveit_planning_pipeline_interfaces
+[767.476s] [ 44%] [32mBuilding CXX object planning_pipeline/CMakeFiles/moveit_planning_pipeline_test.dir/test/planning_pipeline_tests.cpp.o[0m
+[767.476s] [ 46%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/check_for_stacked_constraints.cpp.o[0m
+[767.477s] [ 47%] [32mBuilding CXX object planning_response_adapter_plugins/CMakeFiles/moveit_default_planning_response_adapter_plugins.dir/src/add_ruckig_traj_smoothing.cpp.o[0m
+[767.481s] [ 48%] [32mBuilding CXX object robot_model_loader/CMakeFiles/moveit_robot_model_loader.dir/src/robot_model_loader.cpp.o[0m
+[820.342s] [ 49%] [32m[1mLinking CXX shared library libmoveit_robot_model_loader.so[0m
+[822.335s] [ 49%] Built target moveit_robot_model_loader
+[824.977s] [ 50%] [32mBuilding CXX object planning_response_adapter_plugins/CMakeFiles/moveit_default_planning_response_adapter_plugins.dir/src/add_time_optimal_parameterization.cpp.o[0m
+[825.852s] [ 51%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/check_start_state_bounds.cpp.o[0m
+[873.102s] [ 52%] [32m[1mLinking CXX executable moveit_planning_pipeline_test[0m
+[875.132s] [ 52%] Built target moveit_planning_pipeline_test
+[877.224s] [ 53%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/check_start_state_collision.cpp.o[0m
+[877.489s] [ 55%] [32mBuilding CXX object planning_response_adapter_plugins/CMakeFiles/moveit_default_planning_response_adapter_plugins.dir/src/display_motion_path.cpp.o[0m
+[914.506s] [ 56%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/validate_workspace_bounds.cpp.o[0m
+[929.118s] [ 57%] [32mBuilding CXX object planning_response_adapter_plugins/CMakeFiles/moveit_default_planning_response_adapter_plugins.dir/src/validate_path.cpp.o[0m
+[952.573s] [ 58%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/moveit_default_planning_request_adapter_plugins.dir/src/resolve_constraint_frames.cpp.o[0m
+[989.626s] [ 59%] [32m[1mLinking CXX shared library libmoveit_default_planning_response_adapter_plugins.so[0m
+[990.820s] [ 59%] Built target moveit_default_planning_response_adapter_plugins
+[992.807s] [ 60%] [32m[1mLinking CXX shared library libmoveit_default_planning_request_adapter_plugins.so[0m
+[993.870s] [ 60%] Built target moveit_default_planning_request_adapter_plugins
+[993.979s] [ 61%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_print_planning_model_info.dir/src/print_planning_model_info.cpp.o[0m
+[1016.070s] [ 62%] [32m[1mLinking CXX executable moveit_print_planning_model_info[0m
+[1017.687s] [ 62%] Built target moveit_print_planning_model_info
+[1017.826s] [ 64%] [32mBuilding CXX object planning_request_adapter_plugins/CMakeFiles/test_check_start_state_bounds.dir/test/test_check_start_state_bounds.cpp.o[0m
+[1017.832s] [ 66%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_state_monitor_middleware_handle.cpp.o[0m
+[1017.836s] [ 66%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/planning_scene_monitor.cpp.o[0m
+[1017.849s] [ 67%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/current_state_monitor.cpp.o[0m
+[1131.188s] [ 68%] [32m[1mLinking CXX executable test_check_start_state_bounds[0m
+[1133.292s] [ 68%] Built target test_check_start_state_bounds
+[1212.310s] [ 69%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/trajectory_monitor.cpp.o[0m
+[1212.316s] [ 70%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/moveit_planning_scene_monitor.dir/src/trajectory_monitor_middleware_handle.cpp.o[0m
+[1250.195s] [ 71%] [32m[1mLinking CXX shared library libmoveit_planning_scene_monitor.so[0m
+[1252.106s] [ 71%] Built target moveit_planning_scene_monitor
+[1252.223s] [ 73%] [32mBuilding CXX object trajectory_execution_manager/CMakeFiles/moveit_trajectory_execution_manager.dir/src/trajectory_execution_manager.cpp.o[0m
+[1252.225s] [ 75%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_display_random_state.dir/src/display_random_state.cpp.o[0m
+[1252.227s] [ 75%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_print_planning_scene_info.dir/src/print_planning_scene_info.cpp.o[0m
+[1253.439s] [ 76%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_visualize_robot_collision_volume.dir/src/visualize_robot_collision_volume.cpp.o[0m
+[1329.282s] [ 77%] [32m[1mLinking CXX executable moveit_print_planning_scene_info[0m
+[1331.718s] [ 77%] Built target moveit_print_planning_scene_info
+[1349.177s] [ 78%] [32m[1mLinking CXX executable moveit_visualize_robot_collision_volume[0m
+[1350.598s] [ 79%] [32m[1mLinking CXX executable moveit_display_random_state[0m
+[1352.241s] [ 79%] Built target moveit_visualize_robot_collision_volume
+[1353.227s] [ 79%] Built target moveit_display_random_state
+[1381.340s] [ 80%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/demo_scene.dir/demos/demo_scene.cpp.o[0m
+[1382.423s] [ 82%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_publish_scene_from_text.dir/src/publish_scene_from_text.cpp.o[0m
+[1383.680s] [ 83%] [32mBuilding CXX object planning_components_tools/CMakeFiles/moveit_evaluate_collision_checking_speed.dir/src/evaluate_collision_checking_speed.cpp.o[0m
+[1407.444s] [ 84%] [32m[1mLinking CXX shared library libmoveit_trajectory_execution_manager.so[0m
+[1409.594s] [ 84%] Built target moveit_trajectory_execution_manager
+[1456.062s] [ 85%] [32m[1mLinking CXX executable demo_scene[0m
+[1457.413s] [ 85%] Built target demo_scene
+[1458.942s] [ 86%] [32m[1mLinking CXX executable moveit_evaluate_collision_checking_speed[0m
+[1460.243s] [ 86%] Built target moveit_evaluate_collision_checking_speed
+[1461.607s] [ 87%] [32m[1mLinking CXX executable moveit_publish_scene_from_text[0m
+[1462.850s] [ 87%] Built target moveit_publish_scene_from_text
+[1462.927s] [ 88%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/planning_scene_monitor_test.dir/test/planning_scene_monitor_test.cpp.o[0m
+[1465.971s] [ 89%] [32mBuilding CXX object moveit_cpp/CMakeFiles/moveit_cpp.dir/src/moveit_cpp.cpp.o[0m
+[1467.049s] [ 91%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/trajectory_monitor_tests.dir/test/trajectory_monitor_tests.cpp.o[0m
+[1468.127s] [ 92%] [32mBuilding CXX object planning_scene_monitor/CMakeFiles/current_state_monitor_tests.dir/test/current_state_monitor_tests.cpp.o[0m
+[1551.817s] [ 93%] [32m[1mLinking CXX executable planning_scene_monitor_test[0m
+[1554.604s] [ 93%] Built target planning_scene_monitor_test
+[1558.179s] [ 94%] [32mBuilding CXX object moveit_cpp/CMakeFiles/moveit_cpp.dir/src/planning_component.cpp.o[0m
+[1562.579s] [ 95%] [32m[1mLinking CXX executable trajectory_monitor_tests[0m
+[1565.070s] [ 95%] Built target trajectory_monitor_tests
+[1568.123s] [ 96%] [32m[1mLinking CXX executable current_state_monitor_tests[0m
+[1571.313s] [ 96%] Built target current_state_monitor_tests
+[1620.267s] [ 97%] [32m[1mLinking CXX shared library libmoveit_cpp.so[0m
+[1621.807s] [ 97%] Built target moveit_cpp
+[1621.911s] [ 98%] [32mBuilding CXX object plan_execution/CMakeFiles/moveit_plan_execution.dir/src/plan_execution.cpp.o[0m
+[1677.640s] [100%] [32m[1mLinking CXX shared library libmoveit_plan_execution.so[0m
+[1678.931s] [100%] Built target moveit_plan_execution
+[1678.997s] Invoked command in '/home/luka/ws_moveit/build/moveit_ros_planning' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/luka/ws_moveit/install/moveit_core:/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config:/home/luka/ws_moveit/install/moveit_resources_pr2_description:/home/luka/ws_moveit/install/moveit_resources_panda_description:/home/luka/ws_moveit/install/moveit_msgs:/home/luka/ws_moveit/install/moveit_configs_utils:/home/luka/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/luka/ws_moveit/install/moveit_core:/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config:/home/luka/ws_moveit/install/moveit_resources_pr2_description:/home/luka/ws_moveit/install/moveit_resources_panda_description:/home/luka/ws_moveit/install/moveit_msgs:/home/luka/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/luka/ws_moveit/install/moveit_core/lib:/home/luka/ws_moveit/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/luka/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/luka/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/luka/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/luka/ws_moveit/build/moveit_ros_planning -- -j4 -l4
+[1679.005s] Invoking command in '/home/luka/ws_moveit/build/moveit_ros_planning': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/luka/ws_moveit/install/moveit_core:/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config:/home/luka/ws_moveit/install/moveit_resources_pr2_description:/home/luka/ws_moveit/install/moveit_resources_panda_description:/home/luka/ws_moveit/install/moveit_msgs:/home/luka/ws_moveit/install/moveit_configs_utils:/home/luka/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/luka/ws_moveit/install/moveit_core:/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config:/home/luka/ws_moveit/install/moveit_resources_pr2_description:/home/luka/ws_moveit/install/moveit_resources_panda_description:/home/luka/ws_moveit/install/moveit_msgs:/home/luka/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/luka/ws_moveit/install/moveit_core/lib:/home/luka/ws_moveit/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/luka/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/luka/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/luka/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/luka/ws_moveit/build/moveit_ros_planning
+[1679.048s] -- Install configuration: "Release"
+[1679.049s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning
+[1679.050s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit
+[1679.051s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/collision_plugin_loader
+[1679.052s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/collision_plugin_loader/collision_plugin_loader.h
+[1679.053s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/collision_plugin_loader/collision_plugin_loader.hpp
+[1679.054s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning
+[1679.055s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit
+[1679.056s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/constraint_sampler_manager_loader
+[1679.057s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/constraint_sampler_manager_loader/constraint_sampler_manager_loader.hpp
+[1679.058s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/constraint_sampler_manager_loader/constraint_sampler_manager_loader.h
+[1679.059s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning
+[1679.059s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/kinematics_parameters.hpp
+[1679.061s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning
+[1679.061s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit
+[1679.062s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/kinematics_plugin_loader
+[1679.062s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/kinematics_plugin_loader/kinematics_plugin_loader.h
+[1679.063s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/kinematics_plugin_loader/kinematics_plugin_loader.hpp
+[1679.063s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning
+[1679.063s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit
+[1679.064s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/moveit_cpp
+[1679.064s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/moveit_cpp/moveit_cpp.hpp
+[1679.065s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/moveit_cpp/planning_component.h
+[1679.065s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/moveit_cpp/planning_component.hpp
+[1679.066s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/moveit_cpp/moveit_cpp.h
+[1679.067s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning
+[1679.068s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit
+[1679.068s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/plan_execution
+[1679.069s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/plan_execution/plan_execution.h
+[1679.070s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/plan_execution/plan_execution.hpp
+[1679.070s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/plan_execution/plan_representation.h
+[1679.071s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/plan_execution/plan_representation.hpp
+[1679.072s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_print_planning_model_info
+[1679.073s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_print_planning_model_info" to ""
+[1679.074s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_print_planning_scene_info
+[1679.076s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_print_planning_scene_info" to ""
+[1679.076s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_display_random_state
+[1679.079s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_display_random_state" to ""
+[1679.080s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_visualize_robot_collision_volume
+[1679.084s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_visualize_robot_collision_volume" to ""
+[1679.085s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_evaluate_collision_checking_speed
+[1679.088s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_evaluate_collision_checking_speed" to ""
+[1679.089s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_publish_scene_from_text
+[1679.091s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/moveit_publish_scene_from_text" to ""
+[1679.093s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning
+[1679.094s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit
+[1679.095s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_pipeline_interfaces
+[1679.096s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.hpp
+[1679.097s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.hpp
+[1679.098s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.h
+[1679.100s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/planning_pipeline_interfaces.h
+[1679.100s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/plan_responses_container.h
+[1679.101s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.h
+[1679.102s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/solution_selection_functions.hpp
+[1679.103s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_pipeline_interfaces/stopping_criterion_functions.hpp
+[1679.104s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit_planning_pipeline_interfaces_export.h
+[1679.105s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning
+[1679.106s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/planning_pipeline_parameters.hpp
+[1679.107s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_pipeline_test_plugins.so.2.14.1
+[1679.108s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_pipeline_test_plugins.so.2.14.1" to ""
+[1679.109s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_pipeline_test_plugins.so
+[1679.110s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning
+[1679.111s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit
+[1679.112s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_pipeline
+[1679.112s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.h
+[1679.113s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_pipeline/planning_pipeline.hpp
+[1679.114s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit_planning_pipeline_export.h
+[1679.114s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning
+[1679.116s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/default_request_adapter_parameters.hpp
+[1679.117s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning
+[1679.118s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/default_response_adapter_parameters.hpp
+[1679.119s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/demo_scene
+[1679.120s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/demo_scene" to ""
+[1679.121s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning
+[1679.122s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit
+[1679.124s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor
+[1679.125s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h
+[1679.126s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/current_state_monitor_middleware_handle.hpp
+[1679.127s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/current_state_monitor.h
+[1679.128s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/trajectory_monitor_middleware_handle.hpp
+[1679.128s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/trajectory_monitor.h
+[1679.129s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp
+[1679.130s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/current_state_monitor.hpp
+[1679.130s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/trajectory_monitor.hpp
+[1679.131s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/current_state_monitor_middleware_handle.h
+[1679.132s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/planning_scene_monitor/trajectory_monitor_middleware_handle.h
+[1679.133s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit_planning_scene_monitor_export.h
+[1679.134s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning
+[1679.134s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit
+[1679.135s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/rdf_loader
+[1679.135s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/rdf_loader/synchronized_string_parameter.h
+[1679.136s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/rdf_loader/synchronized_string_parameter.hpp
+[1679.137s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/rdf_loader/rdf_loader.hpp
+[1679.138s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/rdf_loader/rdf_loader.h
+[1679.139s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data
+[1679.139s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/kermit.srdf
+[1679.140s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/gonzo.urdf
+[1679.140s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/gonzo.srdf
+[1679.141s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/robin.srdf.xacro
+[1679.142s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/data/kermit.urdf
+[1679.143s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/launch
+[1679.144s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/rdf_loader/test/launch/test_rdf_integration.test.py
+[1679.144s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning
+[1679.146s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit
+[1679.147s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/robot_model_loader
+[1679.148s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.hpp
+[1679.148s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h
+[1679.148s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning
+[1679.149s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit
+[1679.149s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/trajectory_execution_manager
+[1679.149s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/trajectory_execution_manager/trajectory_execution_manager.hpp
+[1679.150s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit/trajectory_execution_manager/trajectory_execution_manager.h
+[1679.151s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/include/moveit_ros_planning/moveit_trajectory_execution_manager_export.h
+[1679.152s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so.2.14.1
+[1679.152s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so.2.14.1" to ""
+[1679.152s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_collision_plugin_loader.so
+[1679.153s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_constraint_sampler_manager_loader.so.2.14.1
+[1679.156s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_constraint_sampler_manager_loader.so.2.14.1" to ""
+[1679.158s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_constraint_sampler_manager_loader.so
+[1679.158s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_cpp.so.2.14.1
+[1679.160s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_cpp.so.2.14.1" to ""
+[1679.161s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_cpp.so
+[1679.162s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_kinematics_plugin_loader.so.2.14.1
+[1679.165s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_kinematics_plugin_loader.so.2.14.1" to ""
+[1679.165s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_kinematics_plugin_loader.so
+[1679.166s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_plan_execution.so.2.14.1
+[1679.169s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_plan_execution.so.2.14.1" to ""
+[1679.170s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_plan_execution.so
+[1679.170s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_pipeline.so.2.14.1
+[1679.175s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_pipeline.so.2.14.1" to ""
+[1679.176s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_pipeline.so
+[1679.177s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_pipeline_interfaces.so.2.14.1
+[1679.180s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_pipeline_interfaces.so.2.14.1" to ""
+[1679.180s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_pipeline_interfaces.so
+[1679.180s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_scene_monitor.so.2.14.1
+[1679.194s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_scene_monitor.so.2.14.1" to ""
+[1679.195s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_planning_scene_monitor.so
+[1679.196s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_rdf_loader.so.2.14.1
+[1679.199s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_rdf_loader.so.2.14.1" to ""
+[1679.200s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_rdf_loader.so
+[1679.201s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_robot_model_loader.so.2.14.1
+[1679.202s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_robot_model_loader.so.2.14.1" to ""
+[1679.203s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_robot_model_loader.so
+[1679.204s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so.2.14.1
+[1679.210s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so.2.14.1" to ""
+[1679.211s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_trajectory_execution_manager.so
+[1679.212s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libsrdf_publisher_node.so
+[1679.214s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/libsrdf_publisher_node.so" to ""
+[1679.215s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_default_planning_response_adapter_plugins.so.2.14.1
+[1679.218s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_default_planning_response_adapter_plugins.so.2.14.1" to ""
+[1679.219s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_default_planning_response_adapter_plugins.so
+[1679.219s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_default_planning_request_adapter_plugins.so.2.14.1
+[1679.222s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_default_planning_request_adapter_plugins.so.2.14.1" to ""
+[1679.223s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/libmoveit_default_planning_request_adapter_plugins.so
+[1679.224s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/library_path.sh
+[1679.224s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/library_path.dsv
+[1679.226s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/srdf_publisher
+[1679.227s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/moveit_ros_planning/lib/moveit_ros_planning/srdf_publisher" to ""
+[1679.228s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/default_request_adapters_plugin_description.xml
+[1679.230s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/default_response_adapters_plugin_description.xml
+[1679.230s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/planning_pipeline_test_plugins_description.xml
+[1679.232s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/ament_index/resource_index/package_run_dependencies/moveit_ros_planning
+[1679.233s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/ament_index/resource_index/parent_prefix_path/moveit_ros_planning
+[1679.234s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/ament_prefix_path.sh
+[1679.235s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/ament_prefix_path.dsv
+[1679.236s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/path.sh
+[1679.237s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/environment/path.dsv
+[1679.239s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.bash
+[1679.239s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.sh
+[1679.240s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.zsh
+[1679.241s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/local_setup.dsv
+[1679.242s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/package.dsv
+[1679.243s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/ament_index/resource_index/packages/moveit_ros_planning
+[1679.244s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_ros_planning
+[1679.245s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/moveit_ros_planningTargetsExport.cmake
+[1679.246s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/moveit_ros_planningTargetsExport-release.cmake
+[1679.246s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/ament_index/resource_index/rclcpp_components/moveit_ros_planning
+[1679.247s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ConfigExtras.cmake
+[1679.248s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ament_cmake_export_targets-extras.cmake
+[1679.249s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[1679.249s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/moveit_ros_planningConfig.cmake
+[1679.250s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/cmake/moveit_ros_planningConfig-version.cmake
+[1679.250s] -- Installing: /home/luka/ws_moveit/install/moveit_ros_planning/share/moveit_ros_planning/package.xml
+[1679.260s] Invoked command in '/home/luka/ws_moveit/build/moveit_ros_planning' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/luka/ws_moveit/install/moveit_core:/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config:/home/luka/ws_moveit/install/moveit_resources_pr2_description:/home/luka/ws_moveit/install/moveit_resources_panda_description:/home/luka/ws_moveit/install/moveit_msgs:/home/luka/ws_moveit/install/moveit_configs_utils:/home/luka/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/luka/ws_moveit/install/moveit_core:/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config:/home/luka/ws_moveit/install/moveit_resources_pr2_description:/home/luka/ws_moveit/install/moveit_resources_panda_description:/home/luka/ws_moveit/install/moveit_msgs:/home/luka/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/luka/ws_moveit/install/moveit_core/lib:/home/luka/ws_moveit/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/luka/ws_moveit/install/moveit_core/bin:${PATH} PYTHONPATH=/home/luka/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/luka/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/luka/ws_moveit/build/moveit_ros_planning

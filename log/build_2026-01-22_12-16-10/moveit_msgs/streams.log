@@ -1,0 +1,67 @@
+[0.054s] Invoking command in '/home/luka/ws_moveit/build/moveit_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/moveit_msgs -- -j4 -l4
+[0.452s] [  0%] Built target moveit_msgs__rosidl_generator_type_description
+[0.603s] [  0%] Built target ament_cmake_python_copy_moveit_msgs
+[0.793s] [ 29%] Built target moveit_msgs__rosidl_generator_c
+[1.521s] running egg_info
+[1.617s] writing moveit_msgs.egg-info/PKG-INFO
+[1.618s] writing dependency_links to moveit_msgs.egg-info/dependency_links.txt
+[1.618s] writing top-level names to moveit_msgs.egg-info/top_level.txt
+[1.871s] reading manifest file 'moveit_msgs.egg-info/SOURCES.txt'
+[1.876s] writing manifest file 'moveit_msgs.egg-info/SOURCES.txt'
+[1.959s] [ 29%] Built target ament_cmake_python_build_moveit_msgs_egg
+[2.107s] [ 39%] Built target moveit_msgs__rosidl_typesupport_introspection_c
+[2.252s] [ 49%] Built target moveit_msgs__rosidl_typesupport_c
+[2.593s] [ 59%] Built target moveit_msgs__rosidl_typesupport_fastrtps_c
+[2.678s] [ 59%] Built target moveit_msgs__cpp
+[3.004s] [ 69%] Built target moveit_msgs__rosidl_typesupport_cpp
+[3.323s] [ 79%] Built target moveit_msgs__rosidl_typesupport_introspection_cpp
+[3.736s] [ 89%] Built target moveit_msgs__rosidl_typesupport_fastrtps_cpp
+[3.814s] [ 89%] Built target moveit_msgs
+[3.905s] [ 89%] Built target moveit_msgs__py
+[4.111s] [ 89%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_allowed_collision_entry_s.c.o[0m
+[4.942s] [ 90%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_bounding_volume_s.c.o[0m
+[5.548s] [ 90%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_cartesian_point_s.c.o[0m
+[5.844s] [ 90%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_cartesian_trajectory_s.c.o[0m
+[6.122s] [ 90%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_cartesian_trajectory_point_s.c.o[0m
+[6.362s] [ 90%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_collision_object_s.c.o[0m
+[6.817s] [ 90%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_constraint_eval_result_s.c.o[0m
+[7.052s] [ 90%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_constraints_s.c.o[0m
+[7.387s] [ 90%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_cost_source_s.c.o[0m
+[7.617s] [ 91%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_contact_information_s.c.o[0m
+[7.886s] [ 91%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_display_trajectory_s.c.o[0m
+[8.161s] [ 91%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_display_robot_state_s.c.o[0m
+[8.478s] [ 91%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_generic_trajectory_s.c.o[0m
+[8.769s] [ 91%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_grasp_s.c.o[0m
+[9.069s] [ 91%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_gripper_translation_s.c.o[0m
+[9.302s] [ 91%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_joint_constraint_s.c.o[0m
+[9.550s] [ 91%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_joint_limits_s.c.o[0m
+[9.819s] [ 91%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_link_padding_s.c.o[0m
+[10.043s] [ 92%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_link_scale_s.c.o[0m
+[10.268s] [ 92%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_motion_plan_request_s.c.o[0m
+[10.609s] [ 92%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_motion_plan_response_s.c.o[0m
+[10.867s] [ 92%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_motion_plan_detailed_response_s.c.o[0m
+[11.227s] [ 92%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_motion_sequence_item_s.c.o[0m
+[11.472s] [ 92%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_motion_sequence_request_s.c.o[0m
+[11.727s] [ 92%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_motion_sequence_response_s.c.o[0m
+[11.999s] [ 92%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_move_it_error_codes_s.c.o[0m
+[12.238s] [ 93%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_trajectory_constraints_s.c.o[0m
+[12.487s] [ 93%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_object_color_s.c.o[0m
+[12.720s] [ 93%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_orientation_constraint_s.c.o[0m
+[12.973s] [ 93%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_oriented_bounding_box_s.c.o[0m
+[13.201s] [ 93%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_place_location_s.c.o[0m
+[13.535s] [ 93%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_planner_interface_description_s.c.o[0m
+[13.978s] [ 93%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_planner_params_s.c.o[0m
+[14.367s] [ 93%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_planning_scene_s.c.o[0m
+[14.920s] [ 94%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_planning_scene_components_s.c.o[0m
+[15.383s] [ 94%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_planning_scene_world_s.c.o[0m
+[15.849s] [ 94%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_planning_options_s.c.o[0m
+[16.096s] [ 94%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_position_constraint_s.c.o[0m
+[16.332s] [ 94%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_robot_state_s.c.o[0m
+[16.594s] [ 94%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_robot_trajectory_s.c.o[0m
+[16.805s] [ 94%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_visibility_constraint_s.c.o[0m
+[17.032s] [ 94%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_workspace_parameters_s.c.o[0m
+[17.262s] [ 94%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_kinematic_solver_info_s.c.o[0m
+[17.569s] [ 95%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_position_ik_request_s.c.o[0m
+[17.878s] [ 95%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_pipeline_state_s.c.o[0m
+[18.112s] [ 95%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/msg/_servo_status_s.c.o[0m
+[18.339s] [ 95%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_py.dir/rosidl_generator_py/moveit_msgs/srv/_get_motion_plan_s.c.o[0m

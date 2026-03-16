@@ -1,0 +1,267 @@
+[0.000000] (-) TimerEvent: {}
+[0.000932] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000970] (-) JobUnselected: {'identifier': 'dual_arm_panda_moveit_config'}
+[0.000991] (-) JobUnselected: {'identifier': 'hello_moveit_py'}
+[0.001007] (-) JobUnselected: {'identifier': 'kinova_gen3_6dof_robotiq_2f_85_moveit_config'}
+[0.001022] (-) JobUnselected: {'identifier': 'kinova_gen3_7dof_robotiq_2f_85_moveit_config'}
+[0.001035] (-) JobUnselected: {'identifier': 'kinova_gen3_lite_moveit_config'}
+[0.001048] (-) JobUnselected: {'identifier': 'kortex_api'}
+[0.001062] (-) JobUnselected: {'identifier': 'kortex_bringup'}
+[0.001074] (-) JobUnselected: {'identifier': 'kortex_description'}
+[0.001087] (-) JobUnselected: {'identifier': 'kortex_driver'}
+[0.001100] (-) JobUnselected: {'identifier': 'moveit'}
+[0.001113] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.001125] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.001138] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.001150] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.001162] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.001175] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.001187] (-) JobUnselected: {'identifier': 'moveit_msgs'}
+[0.001200] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.001219] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.001232] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.001245] (-) JobUnselected: {'identifier': 'moveit_planners_stomp'}
+[0.001257] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.001270] (-) JobUnselected: {'identifier': 'moveit_py'}
+[0.001283] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.001297] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.001311] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.001328] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.001344] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.001358] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.001371] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.001390] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.001502] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.001517] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.001530] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.001542] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.001555] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.001567] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.001580] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.001592] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.001605] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.001618] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.001631] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.001644] (-) JobUnselected: {'identifier': 'moveit_ros_tests'}
+[0.001657] (-) JobUnselected: {'identifier': 'moveit_ros_trajectory_cache'}
+[0.001669] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.001682] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.001694] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.001706] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.001719] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.001733] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.001750] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.001763] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.001776] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.001788] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.001801] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.001825] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.001882] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.001898] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.001911] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.001924] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.001937] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.001949] (-) JobUnselected: {'identifier': 'pick_ik'}
+[0.001962] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.001975] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.001988] (-) JobUnselected: {'identifier': 'robotiq_controllers'}
+[0.002000] (-) JobUnselected: {'identifier': 'robotiq_description'}
+[0.002012] (-) JobUnselected: {'identifier': 'robotiq_driver'}
+[0.002025] (-) JobUnselected: {'identifier': 'robotiq_hardware_tests'}
+[0.002037] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.002049] (-) JobUnselected: {'identifier': 'rviz_visual_tools'}
+[0.002061] (-) JobUnselected: {'identifier': 'serial'}
+[0.002078] (hello_moveit) JobQueued: {'identifier': 'hello_moveit', 'dependencies': OrderedDict({'moveit_common': '/home/luka/ws_moveit/install/moveit_common', 'moveit_configs_utils': '/home/luka/ws_moveit/install/moveit_configs_utils', 'moveit_msgs': '/home/luka/ws_moveit/install/moveit_msgs', 'moveit_resources_fanuc_description': '/home/luka/ws_moveit/install/moveit_resources_fanuc_description', 'moveit_resources_panda_description': '/home/luka/ws_moveit/install/moveit_resources_panda_description', 'moveit_resources_pr2_description': '/home/luka/ws_moveit/install/moveit_resources_pr2_description', 'rviz_visual_tools': '/home/luka/ws_moveit/install/rviz_visual_tools', 'moveit_resources_fanuc_moveit_config': '/home/luka/ws_moveit/install/moveit_resources_fanuc_moveit_config', 'moveit_resources_panda_moveit_config': '/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config', 'moveit_core': '/home/luka/ws_moveit/install/moveit_core', 'moveit_ros_occupancy_map_monitor': '/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor', 'moveit_simple_controller_manager': '/home/luka/ws_moveit/install/moveit_simple_controller_manager', 'moveit_ros_planning': '/home/luka/ws_moveit/install/moveit_ros_planning', 'moveit_kinematics': '/home/luka/ws_moveit/install/moveit_kinematics', 'moveit_ros_warehouse': '/home/luka/ws_moveit/install/moveit_ros_warehouse', 'moveit_visual_tools': '/home/luka/ws_moveit/install/moveit_visual_tools', 'moveit_ros_move_group': '/home/luka/ws_moveit/install/moveit_ros_move_group', 'moveit_ros_planning_interface': '/home/luka/ws_moveit/install/moveit_ros_planning_interface'})}
+[0.002127] (hello_moveit) JobStarted: {'identifier': 'hello_moveit'}
+[0.048317] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'cmake'}
+[0.049495] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'build'}
+[0.050391] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luka/ws_moveit/build/hello_moveit', '--', '-j4', '-l4'], 'cwd': '/home/luka/ws_moveit/build/hello_moveit', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'luka', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/luka/ws_moveit/install/moveit_ros_planning_interface/lib:/home/luka/ws_moveit/install/moveit_ros_move_group/lib:/home/luka/ws_moveit/install/moveit_visual_tools/lib:/home/luka/ws_moveit/install/moveit_ros_warehouse/lib:/home/luka/ws_moveit/install/moveit_kinematics/lib:/home/luka/ws_moveit/install/moveit_ros_planning/lib:/home/luka/ws_moveit/install/moveit_simple_controller_manager/lib:/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/luka/ws_moveit/install/moveit_core/lib:/home/luka/ws_moveit/install/rviz_visual_tools/lib:/home/luka/ws_moveit/install/moveit_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/luka', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/luka', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'luka', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'luka', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/home/luka/ws_moveit/install/moveit_core/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/luka/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/luka-Lenovo-ideapad-330S-15IKB:@/tmp/.ICE-unix/2248,unix/luka-Lenovo-ideapad-330S-15IKB:/tmp/.ICE-unix/2248', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/dd213462_6891_4191_9968_dc3a31f077ae', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IGTYH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.305', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/luka/ws_moveit/install/moveit_ros_planning_interface:/home/luka/ws_moveit/install/moveit_ros_move_group:/home/luka/ws_moveit/install/moveit_visual_tools:/home/luka/ws_moveit/install/moveit_ros_warehouse:/home/luka/ws_moveit/install/moveit_kinematics:/home/luka/ws_moveit/install/moveit_ros_planning:/home/luka/ws_moveit/install/moveit_simple_controller_manager:/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/luka/ws_moveit/install/moveit_core:/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config:/home/luka/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/luka/ws_moveit/install/rviz_visual_tools:/home/luka/ws_moveit/install/moveit_resources_pr2_description:/home/luka/ws_moveit/install/moveit_resources_panda_description:/home/luka/ws_moveit/install/moveit_resources_fanuc_description:/home/luka/ws_moveit/install/moveit_msgs:/home/luka/ws_moveit/install/moveit_configs_utils:/home/luka/ws_moveit/install/moveit_common:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/luka/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/luka/ws_moveit/build/hello_moveit', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/luka/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/luka/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/luka/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/luka/ws_moveit/install/moveit_ros_planning_interface:/home/luka/ws_moveit/install/moveit_ros_move_group:/home/luka/ws_moveit/install/moveit_visual_tools:/home/luka/ws_moveit/install/moveit_ros_warehouse:/home/luka/ws_moveit/install/moveit_kinematics:/home/luka/ws_moveit/install/moveit_ros_planning:/home/luka/ws_moveit/install/moveit_simple_controller_manager:/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/luka/ws_moveit/install/moveit_core:/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config:/home/luka/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/luka/ws_moveit/install/rviz_visual_tools:/home/luka/ws_moveit/install/moveit_resources_pr2_description:/home/luka/ws_moveit/install/moveit_resources_panda_description:/home/luka/ws_moveit/install/moveit_resources_fanuc_description:/home/luka/ws_moveit/install/moveit_msgs:/home/luka/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099987] (-) TimerEvent: {}
+[0.166151] (hello_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o\x1b[0m\n'}
+[0.200083] (-) TimerEvent: {}
+[0.300359] (-) TimerEvent: {}
+[0.400586] (-) TimerEvent: {}
+[0.500826] (-) TimerEvent: {}
+[0.601061] (-) TimerEvent: {}
+[0.701332] (-) TimerEvent: {}
+[0.801574] (-) TimerEvent: {}
+[0.901808] (-) TimerEvent: {}
+[1.002053] (-) TimerEvent: {}
+[1.102313] (-) TimerEvent: {}
+[1.202558] (-) TimerEvent: {}
+[1.302785] (-) TimerEvent: {}
+[1.403057] (-) TimerEvent: {}
+[1.503302] (-) TimerEvent: {}
+[1.603549] (-) TimerEvent: {}
+[1.703803] (-) TimerEvent: {}
+[1.804069] (-) TimerEvent: {}
+[1.904358] (-) TimerEvent: {}
+[2.004606] (-) TimerEvent: {}
+[2.104854] (-) TimerEvent: {}
+[2.205101] (-) TimerEvent: {}
+[2.305351] (-) TimerEvent: {}
+[2.405590] (-) TimerEvent: {}
+[2.505850] (-) TimerEvent: {}
+[2.606084] (-) TimerEvent: {}
+[2.706350] (-) TimerEvent: {}
+[2.806578] (-) TimerEvent: {}
+[2.906882] (-) TimerEvent: {}
+[3.007113] (-) TimerEvent: {}
+[3.107339] (-) TimerEvent: {}
+[3.207608] (-) TimerEvent: {}
+[3.307871] (-) TimerEvent: {}
+[3.408120] (-) TimerEvent: {}
+[3.508412] (-) TimerEvent: {}
+[3.608694] (-) TimerEvent: {}
+[3.708974] (-) TimerEvent: {}
+[3.809250] (-) TimerEvent: {}
+[3.910357] (-) TimerEvent: {}
+[4.010679] (-) TimerEvent: {}
+[4.111080] (-) TimerEvent: {}
+[4.211376] (-) TimerEvent: {}
+[4.311624] (-) TimerEvent: {}
+[4.411894] (-) TimerEvent: {}
+[4.512151] (-) TimerEvent: {}
+[4.612427] (-) TimerEvent: {}
+[4.712711] (-) TimerEvent: {}
+[4.812992] (-) TimerEvent: {}
+[4.913259] (-) TimerEvent: {}
+[5.013533] (-) TimerEvent: {}
+[5.113770] (-) TimerEvent: {}
+[5.214043] (-) TimerEvent: {}
+[5.314279] (-) TimerEvent: {}
+[5.414507] (-) TimerEvent: {}
+[5.514811] (-) TimerEvent: {}
+[5.615082] (-) TimerEvent: {}
+[5.715335] (-) TimerEvent: {}
+[5.815592] (-) TimerEvent: {}
+[5.915884] (-) TimerEvent: {}
+[6.016175] (-) TimerEvent: {}
+[6.116512] (-) TimerEvent: {}
+[6.216801] (-) TimerEvent: {}
+[6.317094] (-) TimerEvent: {}
+[6.417393] (-) TimerEvent: {}
+[6.517688] (-) TimerEvent: {}
+[6.617991] (-) TimerEvent: {}
+[6.718280] (-) TimerEvent: {}
+[6.818566] (-) TimerEvent: {}
+[6.918853] (-) TimerEvent: {}
+[7.019143] (-) TimerEvent: {}
+[7.119442] (-) TimerEvent: {}
+[7.219763] (-) TimerEvent: {}
+[7.320078] (-) TimerEvent: {}
+[7.420366] (-) TimerEvent: {}
+[7.520670] (-) TimerEvent: {}
+[7.620981] (-) TimerEvent: {}
+[7.721308] (-) TimerEvent: {}
+[7.821630] (-) TimerEvent: {}
+[7.921879] (-) TimerEvent: {}
+[8.022193] (-) TimerEvent: {}
+[8.122496] (-) TimerEvent: {}
+[8.222810] (-) TimerEvent: {}
+[8.323131] (-) TimerEvent: {}
+[8.423422] (-) TimerEvent: {}
+[8.523726] (-) TimerEvent: {}
+[8.624030] (-) TimerEvent: {}
+[8.724341] (-) TimerEvent: {}
+[8.824626] (-) TimerEvent: {}
+[8.924888] (-) TimerEvent: {}
+[9.025261] (-) TimerEvent: {}
+[9.125525] (-) TimerEvent: {}
+[9.225827] (-) TimerEvent: {}
+[9.326119] (-) TimerEvent: {}
+[9.426428] (-) TimerEvent: {}
+[9.526806] (-) TimerEvent: {}
+[9.627137] (-) TimerEvent: {}
+[9.727390] (-) TimerEvent: {}
+[9.827667] (-) TimerEvent: {}
+[9.927896] (-) TimerEvent: {}
+[10.028215] (-) TimerEvent: {}
+[10.128484] (-) TimerEvent: {}
+[10.228743] (-) TimerEvent: {}
+[10.329011] (-) TimerEvent: {}
+[10.429284] (-) TimerEvent: {}
+[10.529550] (-) TimerEvent: {}
+[10.629818] (-) TimerEvent: {}
+[10.730061] (-) TimerEvent: {}
+[10.830328] (-) TimerEvent: {}
+[10.930556] (-) TimerEvent: {}
+[11.030794] (-) TimerEvent: {}
+[11.131058] (-) TimerEvent: {}
+[11.231302] (-) TimerEvent: {}
+[11.331536] (-) TimerEvent: {}
+[11.431776] (-) TimerEvent: {}
+[11.532044] (-) TimerEvent: {}
+[11.632282] (-) TimerEvent: {}
+[11.732530] (-) TimerEvent: {}
+[11.832764] (-) TimerEvent: {}
+[11.933027] (-) TimerEvent: {}
+[12.033254] (-) TimerEvent: {}
+[12.133486] (-) TimerEvent: {}
+[12.233720] (-) TimerEvent: {}
+[12.334018] (-) TimerEvent: {}
+[12.434290] (-) TimerEvent: {}
+[12.534560] (-) TimerEvent: {}
+[12.634849] (-) TimerEvent: {}
+[12.735097] (-) TimerEvent: {}
+[12.835366] (-) TimerEvent: {}
+[12.935692] (-) TimerEvent: {}
+[13.036037] (-) TimerEvent: {}
+[13.136354] (-) TimerEvent: {}
+[13.236618] (-) TimerEvent: {}
+[13.336944] (-) TimerEvent: {}
+[13.437206] (-) TimerEvent: {}
+[13.537453] (-) TimerEvent: {}
+[13.637723] (-) TimerEvent: {}
+[13.737963] (-) TimerEvent: {}
+[13.838214] (-) TimerEvent: {}
+[13.938498] (-) TimerEvent: {}
+[14.038748] (-) TimerEvent: {}
+[14.139011] (-) TimerEvent: {}
+[14.239241] (-) TimerEvent: {}
+[14.339486] (-) TimerEvent: {}
+[14.439793] (-) TimerEvent: {}
+[14.540081] (-) TimerEvent: {}
+[14.640336] (-) TimerEvent: {}
+[14.740570] (-) TimerEvent: {}
+[14.840797] (-) TimerEvent: {}
+[14.941041] (-) TimerEvent: {}
+[15.041295] (-) TimerEvent: {}
+[15.141541] (-) TimerEvent: {}
+[15.241838] (-) TimerEvent: {}
+[15.302833] (hello_moveit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_moveit\x1b[0m\n'}
+[15.341939] (-) TimerEvent: {}
+[15.442191] (-) TimerEvent: {}
+[15.542957] (-) TimerEvent: {}
+[15.643403] (-) TimerEvent: {}
+[15.744252] (-) TimerEvent: {}
+[15.844599] (-) TimerEvent: {}
+[15.944883] (-) TimerEvent: {}
+[16.045139] (-) TimerEvent: {}
+[16.145435] (-) TimerEvent: {}
+[16.223589] (hello_moveit) StdoutLine: {'line': b'[100%] Built target hello_moveit\n'}
+[16.239181] (hello_moveit) CommandEnded: {'returncode': 0}
+[16.239811] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'install'}
+[16.245547] (-) TimerEvent: {}
+[16.252868] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luka/ws_moveit/build/hello_moveit'], 'cwd': '/home/luka/ws_moveit/build/hello_moveit', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'luka', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/luka/ws_moveit/install/moveit_ros_planning_interface/lib:/home/luka/ws_moveit/install/moveit_ros_move_group/lib:/home/luka/ws_moveit/install/moveit_visual_tools/lib:/home/luka/ws_moveit/install/moveit_ros_warehouse/lib:/home/luka/ws_moveit/install/moveit_kinematics/lib:/home/luka/ws_moveit/install/moveit_ros_planning/lib:/home/luka/ws_moveit/install/moveit_simple_controller_manager/lib:/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/luka/ws_moveit/install/moveit_core/lib:/home/luka/ws_moveit/install/rviz_visual_tools/lib:/home/luka/ws_moveit/install/moveit_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/luka', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/luka', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2287', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'luka', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'luka', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'PATH': '/home/luka/ws_moveit/install/moveit_core/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/luka/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/luka-Lenovo-ideapad-330S-15IKB:@/tmp/.ICE-unix/2248,unix/luka-Lenovo-ideapad-330S-15IKB:/tmp/.ICE-unix/2248', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/dd213462_6891_4191_9968_dc3a31f077ae', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IGTYH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.305', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/luka/ws_moveit/install/moveit_ros_planning_interface:/home/luka/ws_moveit/install/moveit_ros_move_group:/home/luka/ws_moveit/install/moveit_visual_tools:/home/luka/ws_moveit/install/moveit_ros_warehouse:/home/luka/ws_moveit/install/moveit_kinematics:/home/luka/ws_moveit/install/moveit_ros_planning:/home/luka/ws_moveit/install/moveit_simple_controller_manager:/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/luka/ws_moveit/install/moveit_core:/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config:/home/luka/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/luka/ws_moveit/install/rviz_visual_tools:/home/luka/ws_moveit/install/moveit_resources_pr2_description:/home/luka/ws_moveit/install/moveit_resources_panda_description:/home/luka/ws_moveit/install/moveit_resources_fanuc_description:/home/luka/ws_moveit/install/moveit_msgs:/home/luka/ws_moveit/install/moveit_configs_utils:/home/luka/ws_moveit/install/moveit_common:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/luka/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/luka/ws_moveit/build/hello_moveit', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/luka/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/luka/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages:/home/luka/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/luka/ws_moveit/install/moveit_ros_planning_interface:/home/luka/ws_moveit/install/moveit_ros_move_group:/home/luka/ws_moveit/install/moveit_visual_tools:/home/luka/ws_moveit/install/moveit_ros_warehouse:/home/luka/ws_moveit/install/moveit_kinematics:/home/luka/ws_moveit/install/moveit_ros_planning:/home/luka/ws_moveit/install/moveit_simple_controller_manager:/home/luka/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/luka/ws_moveit/install/moveit_core:/home/luka/ws_moveit/install/moveit_resources_panda_moveit_config:/home/luka/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/luka/ws_moveit/install/rviz_visual_tools:/home/luka/ws_moveit/install/moveit_resources_pr2_description:/home/luka/ws_moveit/install/moveit_resources_panda_description:/home/luka/ws_moveit/install/moveit_resources_fanuc_description:/home/luka/ws_moveit/install/moveit_msgs:/home/luka/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[16.264340] (hello_moveit) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[16.264604] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/luka/ws_moveit/install/hello_moveit/lib/hello_moveit/hello_moveit\n'}
+[16.275527] (hello_moveit) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""\n'}
+[16.275946] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit\n'}
+[16.276116] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit\n'}
+[16.276269] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh\n'}
+[16.276540] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv\n'}
+[16.276695] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit/share/hello_moveit/environment/path.sh\n'}
+[16.276852] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit/share/hello_moveit/environment/path.dsv\n'}
+[16.277001] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit/share/hello_moveit/local_setup.bash\n'}
+[16.277144] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit/share/hello_moveit/local_setup.sh\n'}
+[16.277336] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit/share/hello_moveit/local_setup.zsh\n'}
+[16.277539] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit/share/hello_moveit/local_setup.dsv\n'}
+[16.277706] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/luka/ws_moveit/install/hello_moveit/share/hello_moveit/package.dsv\n'}
+[16.277887] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit\n'}
+[16.278061] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake\n'}
+[16.278223] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake\n'}
+[16.278311] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit/share/hello_moveit/package.xml\n'}
+[16.279094] (hello_moveit) CommandEnded: {'returncode': 0}
+[16.298463] (hello_moveit) JobEnded: {'identifier': 'hello_moveit', 'rc': 0}
+[16.299477] (-) EventReactorShutdown: {}

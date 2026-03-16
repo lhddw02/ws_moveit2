@@ -1,0 +1,55 @@
+-- Found moveit_common: 2.14.1 (/home/luka/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+-- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found moveit_core: 2.14.1 (/home/luka/ws_moveit/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_move_group: 2.14.1 (/home/luka/ws_moveit/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+-- Found tf2_eigen_kdl: 0.36.16 (/opt/ros/jazzy/share/tf2_eigen_kdl/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
+-- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+-- Found ros_testing: 0.6.0 (/opt/ros/jazzy/share/ros_testing/cmake)
+-- Found launch_testing_ament_cmake: 3.4.9 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found moveit_resources_prbt_support: 2.14.1 (/home/luka/ws_moveit/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake)
+-- Found moveit_resources_prbt_moveit_config: 2.14.1 (/home/luka/ws_moveit/install/moveit_resources_prbt_moveit_config/share/moveit_resources_prbt_moveit_config/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread 
+-- Found pilz_industrial_motion_planner_testutils: 2.14.1 (/home/luka/ws_moveit/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake)
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Configuring done (9.3s)
+-- Generating done (2.1s)
+-- Build files have been written to: /home/luka/ws_moveit/build/pilz_industrial_motion_planner
+[  2%] Built target cartesian_limits_parameters
+[  4%] Built target gmock_main
+[  8%] Built target gmock
+[  9%] [32m[1mLinking CXX shared library libjoint_limits_common.so[0m
+[ 13%] Built target joint_limits_common
+[ 16%] Built target gtest
+[ 17%] [32m[1mLinking CXX shared library libtrajectory_generation_common.so[0m
+[ 20%] Built target trajectory_generation_common
+[ 22%] [32m[1mLinking CXX shared library libplanning_context_loader_base.so[0m
+[ 23%] Built target planning_context_loader_base
+[ 25%] Built target pilz_industrial_motion_planner_test_utils
+[ 26%] [32m[1mLinking CXX shared library libpilz_industrial_motion_planner.so[0m
+[ 27%] Built target pilz_industrial_motion_planner
+[ 29%] [32m[1mLinking CXX shared library libplanning_context_loader_ptp.so[0m
+[ 32%] Built target planning_context_loader_ptp
+[ 33%] [32m[1mLinking CXX shared library libplanning_context_loader_lin.so[0m
+[ 37%] Built target planning_context_loader_lin
+[ 38%] [32m[1mLinking CXX shared library libplanning_context_loader_circ.so[0m

@@ -1,0 +1,1 @@
+Invoking command in '/home/luka/ws_moveit/build/moveit_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/moveit_msgs -- -j4 -l4

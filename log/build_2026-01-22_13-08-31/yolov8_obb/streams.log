@@ -1,0 +1,29 @@
+[0.055s] Invoking command in '/home/luka/ws_moveit/build/yolov8_obb': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/yolov8_obb -- -j4 -l4
+[0.272s] Invoked command in '/home/luka/ws_moveit/build/yolov8_obb' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/yolov8_obb -- -j4 -l4
+[0.328s] Invoking command in '/home/luka/ws_moveit/build/yolov8_obb': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/yolov8_obb
+[0.367s] -- Install configuration: ""
+[0.367s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb//scripts
+[0.368s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb//scripts/yolov8_obb_subscriber.py
+[0.368s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb//scripts/best.pt
+[0.368s] -- Installing: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb//scripts/yolov8_obb_publisher.py
+[0.369s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb//launch
+[0.369s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb//launch/yolov8_obb.launch.py
+[0.370s] -- Installing: /home/luka/ws_moveit/install/yolov8_obb/lib/yolov8_obb/yolov8_obb_publisher.py
+[0.370s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/lib/yolov8_obb/yolov8_obb_subscriber.py
+[0.370s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/lib/yolov8_obb/yolov8_obb.launch.py
+[0.371s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/ament_index/resource_index/package_run_dependencies/yolov8_obb
+[0.371s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/ament_index/resource_index/parent_prefix_path/yolov8_obb
+[0.372s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb/environment/ament_prefix_path.sh
+[0.372s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb/environment/ament_prefix_path.dsv
+[0.372s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb/environment/path.sh
+[0.372s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb/environment/path.dsv
+[0.372s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb/local_setup.bash
+[0.372s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb/local_setup.sh
+[0.373s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb/local_setup.zsh
+[0.373s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb/local_setup.dsv
+[0.373s] -- Installing: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb/package.dsv
+[0.373s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/ament_index/resource_index/packages/yolov8_obb
+[0.373s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb/cmake/yolov8_obbConfig.cmake
+[0.374s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb/cmake/yolov8_obbConfig-version.cmake
+[0.374s] -- Up-to-date: /home/luka/ws_moveit/install/yolov8_obb/share/yolov8_obb/package.xml
+[0.376s] Invoked command in '/home/luka/ws_moveit/build/yolov8_obb' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/yolov8_obb

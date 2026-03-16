@@ -1,0 +1,9 @@
+/home/luka/ws_moveit/build/yolov8_obb/CMakeFiles/uninstall.dir
+/home/luka/ws_moveit/build/yolov8_obb/CMakeFiles/yolov8_obb_uninstall.dir
+/home/luka/ws_moveit/build/yolov8_obb/CMakeFiles/test.dir
+/home/luka/ws_moveit/build/yolov8_obb/CMakeFiles/edit_cache.dir
+/home/luka/ws_moveit/build/yolov8_obb/CMakeFiles/rebuild_cache.dir
+/home/luka/ws_moveit/build/yolov8_obb/CMakeFiles/list_install_components.dir
+/home/luka/ws_moveit/build/yolov8_obb/CMakeFiles/install.dir
+/home/luka/ws_moveit/build/yolov8_obb/CMakeFiles/install/local.dir
+/home/luka/ws_moveit/build/yolov8_obb/CMakeFiles/install/strip.dir

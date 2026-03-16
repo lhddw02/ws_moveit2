@@ -1,0 +1,17 @@
+{
+  "package_name": "moveit_task_constructor_msgs",
+  "non_idl_tuples": [
+    "/home/luka/ws_moveit/src/moveit_task_constructor/msgs:msg/Property.msg",
+    "/home/luka/ws_moveit/src/moveit_task_constructor/msgs:msg/Solution.msg",
+    "/home/luka/ws_moveit/src/moveit_task_constructor/msgs:msg/SolutionInfo.msg",
+    "/home/luka/ws_moveit/src/moveit_task_constructor/msgs:msg/StageDescription.msg",
+    "/home/luka/ws_moveit/src/moveit_task_constructor/msgs:msg/StageStatistics.msg",
+    "/home/luka/ws_moveit/src/moveit_task_constructor/msgs:msg/SubSolution.msg",
+    "/home/luka/ws_moveit/src/moveit_task_constructor/msgs:msg/SubTrajectory.msg",
+    "/home/luka/ws_moveit/src/moveit_task_constructor/msgs:msg/TaskDescription.msg",
+    "/home/luka/ws_moveit/src/moveit_task_constructor/msgs:msg/TaskStatistics.msg",
+    "/home/luka/ws_moveit/src/moveit_task_constructor/msgs:msg/TrajectoryExecutionInfo.msg",
+    "/home/luka/ws_moveit/src/moveit_task_constructor/msgs:srv/GetSolution.srv",
+    "/home/luka/ws_moveit/src/moveit_task_constructor/msgs:action/ExecuteTaskSolution.action"
+  ]
+}

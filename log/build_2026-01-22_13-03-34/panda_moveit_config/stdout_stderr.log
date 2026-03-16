@@ -1,0 +1,98 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found moveit_ros_planning_interface: 2.14.1 (/home/luka/ws_moveit/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/luka/ws_moveit/build/panda_moveit_config
+-- Install configuration: ""
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/lib/panda_moveit_config/arm_control_from_UI.py
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/launch
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/launch/moveit.rviz
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/launch/moveit_empty.rviz
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/launch/moveit_gazebo_obb.py
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/launch/moveit_rviz.launch.py
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/chomp_planning.yaml
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/panda.gazebo_ros2_control.xacro
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/motion_planning.rviz
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/gripper_moveit_controllers.yaml
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/sensors_kinect_depthmap.yaml
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/pilz_cartesian_limits.yaml
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/trajopt_planning.yaml
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/panda_arm.srdf.xacro
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/sensors_kinect_pointcloud.yaml
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/panda_hand.gazebo_ros2_control.xacro
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/ompl_planning.yaml
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/kinematics.yaml
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/panda.srdf
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/joint_limits.yaml
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/lerp_planning.yaml
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/panda_arm_hand.srdf.xacro
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/panda.urdf.xacro
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/controller_setting.yaml
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/ros2_controllers.yaml
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/initial_positions.yaml
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/moveit_controllers.yaml
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/hand.xacro
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/config/panda_arm.xacro
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/scripts
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/scripts/arm_control_from_UI.py
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/table
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/table/model.sdf
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/table/model-1_2.sdf
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/table/model-1_4.sdf
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/table/model-1_3.sdf
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/table/model.config
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/ground_plane
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/ground_plane/model.sdf
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/ground_plane/model-1_2.sdf
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/ground_plane/model-1_4.sdf
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/ground_plane/model-1_3.sdf
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/ground_plane/model.config
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/sun
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/sun/model.sdf
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/sun/model-1_2.sdf
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/sun/model-1_4.sdf
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/sun/model-1_3.sdf
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/sun/model.config
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/arm_on_the_table.sdf
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/bolt
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/bolt/model.sdf
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/bolt/materials
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/bolt/meshes
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/bolt/meshes/bolt.stl
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/bolt/meshes/bolt.dae
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/worlds/bolt/model.config
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/.setup_assistant
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/ament_index/resource_index/package_run_dependencies/panda_moveit_config
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/ament_index/resource_index/parent_prefix_path/panda_moveit_config
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/environment/ament_prefix_path.sh
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/environment/ament_prefix_path.dsv
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/environment/path.sh
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/environment/path.dsv
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/local_setup.bash
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/local_setup.sh
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/local_setup.zsh
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/local_setup.dsv
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/package.dsv
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/ament_index/resource_index/packages/panda_moveit_config
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/cmake/panda_moveit_configConfig.cmake
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/cmake/panda_moveit_configConfig-version.cmake
+-- Installing: /home/luka/ws_moveit/install/panda_moveit_config/share/panda_moveit_config/package.xml

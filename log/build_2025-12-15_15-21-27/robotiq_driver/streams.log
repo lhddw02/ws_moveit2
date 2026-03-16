@@ -1,0 +1,121 @@
+[0.096s] Invoking command in '/home/luka/ws_moveit/build/robotiq_driver': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luka/ws_moveit/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/luka/ws_moveit/src/ros2_robotiq_gripper/robotiq_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/robotiq_driver
+[0.582s] -- The CXX compiler identification is GNU 13.3.0
+[0.696s] -- Detecting CXX compiler ABI info
+[1.367s] -- Detecting CXX compiler ABI info - done
+[1.449s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.450s] -- Detecting CXX compile features
+[1.454s] -- Detecting CXX compile features - done
+[1.498s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.530s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.284s] -- Found hardware_interface: 4.39.2 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[3.605s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.708s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.828s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.952s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.337s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[5.770s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.798s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[6.017s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[6.399s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[6.421s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[6.548s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.587s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[6.654s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[6.753s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.892s] -- Found serial: 1.2.1 (/home/luka/ws_moveit/install/serial/share/serial/cmake)
+[9.969s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[9.989s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[10.009s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[11.242s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[11.678s] -- The C compiler identification is GNU 13.3.0
+[11.798s] -- Detecting C compiler ABI info
+[12.589s] -- Detecting C compiler ABI info - done
+[12.702s] -- Check for working C compiler: /usr/bin/cc - skipped
+[12.706s] -- Detecting C compile features
+[12.713s] -- Detecting C compile features - done
+[12.766s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[13.616s] -- Configuring done (13.5s)
+[14.523s] -- Generating done (0.8s)
+[14.709s] -- Build files have been written to: /home/luka/ws_moveit/build/robotiq_driver
+[14.788s] Invoked command in '/home/luka/ws_moveit/build/robotiq_driver' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luka/ws_moveit/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/luka/ws_moveit/src/ros2_robotiq_gripper/robotiq_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/robotiq_driver
+[14.795s] Invoking command in '/home/luka/ws_moveit/build/robotiq_driver': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luka/ws_moveit/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/luka/ws_moveit/build/robotiq_driver -- -j4 -l4
+[15.072s] [  4%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/crc_utils.cpp.o[0m
+[16.149s] [  8%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/data_utils.cpp.o[0m
+[17.806s] [ 12%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/hardware_interface.cpp.o[0m
+[64.298s] [ 16%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/default_driver.cpp.o[0m
+[84.440s] [ 20%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/default_driver_factory.cpp.o[0m
+[89.792s] [ 25%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/fake/fake_driver.cpp.o[0m
+[95.113s] [ 29%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/default_serial.cpp.o[0m
+[98.884s] [ 33%] [32mBuilding CXX object CMakeFiles/robotiq_driver.dir/src/default_serial_factory.cpp.o[0m
+[104.801s] [ 37%] [32m[1mLinking CXX shared library librobotiq_driver.so[0m
+[106.015s] [ 37%] Built target robotiq_driver
+[106.158s] [ 41%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[189.683s] [ 45%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[212.082s] [ 50%] [32m[1mLinking CXX static library libgmock.a[0m
+[212.809s] [ 50%] Built target gmock
+[213.191s] [ 54%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[224.528s] [ 58%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[224.884s] [ 58%] Built target gmock_main
+[225.016s] [ 62%] [32mBuilding CXX object tests/CMakeFiles/test_robotiq_gripper_hardware_interface.dir/test_robotiq_gripper_hardware_interface.cpp.o[0m
+[271.763s] [ 66%] [32m[1mLinking CXX executable test_robotiq_gripper_hardware_interface[0m
+[273.476s] [ 66%] Built target test_robotiq_gripper_hardware_interface
+[273.722s] [ 70%] [32mBuilding CXX object tests/CMakeFiles/test_crc_utils.dir/test_crc_utils.cpp.o[0m
+[282.483s] [ 75%] [32m[1mLinking CXX executable test_crc_utils[0m
+[283.869s] [ 75%] Built target test_crc_utils
+[284.038s] [ 79%] [32mBuilding CXX object tests/CMakeFiles/test_data_utils.dir/test_data_utils.cpp.o[0m
+[292.799s] [ 83%] [32m[1mLinking CXX executable test_data_utils[0m
+[293.923s] [ 83%] Built target test_data_utils
+[294.072s] [ 87%] [32mBuilding CXX object tests/CMakeFiles/test_default_driver_factory.dir/test_default_driver_factory.cpp.o[0m
+[325.097s] [ 91%] [32m[1mLinking CXX executable test_default_driver_factory[0m
+[326.233s] [ 91%] Built target test_default_driver_factory
+[326.368s] [ 95%] [32mBuilding CXX object tests/CMakeFiles/test_default_serial_factory.dir/test_default_serial_factory.cpp.o[0m
+[359.267s] [100%] [32m[1mLinking CXX executable test_default_serial_factory[0m
+[360.516s] [100%] Built target test_default_serial_factory
+[360.621s] Invoked command in '/home/luka/ws_moveit/build/robotiq_driver' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luka/ws_moveit/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/luka/ws_moveit/build/robotiq_driver -- -j4 -l4
+[360.632s] Invoking command in '/home/luka/ws_moveit/build/robotiq_driver': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luka/ws_moveit/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/luka/ws_moveit/build/robotiq_driver
+[360.700s] -- Install configuration: "Release"
+[360.708s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/hardware_interface_plugin.xml
+[360.714s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/environment/library_path.sh
+[360.720s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/environment/library_path.dsv
+[360.721s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include
+[360.731s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include/robotiq_driver
+[360.732s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include/robotiq_driver/crc_utils.hpp
+[360.739s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include/robotiq_driver/serial_factory.hpp
+[360.740s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include/robotiq_driver/hardware_interface.hpp
+[360.741s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include/robotiq_driver/default_serial.hpp
+[360.741s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include/robotiq_driver/driver_exception.hpp
+[360.744s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include/robotiq_driver/default_driver_factory.hpp
+[360.748s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include/robotiq_driver/data_utils.hpp
+[360.749s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include/robotiq_driver/fake
+[360.749s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include/robotiq_driver/fake/fake_driver.hpp
+[360.752s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include/robotiq_driver/default_driver.hpp
+[360.753s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include/robotiq_driver/driver.hpp
+[360.754s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include/robotiq_driver/driver_factory.hpp
+[360.755s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include/robotiq_driver/visibility_control.hpp
+[360.759s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include/robotiq_driver/default_serial_factory.hpp
+[360.759s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/include/robotiq_driver/serial.hpp
+[360.760s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/lib/librobotiq_driver.so
+[360.766s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/robotiq_driver/lib/librobotiq_driver.so" to ""
+[360.767s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/ament_index/resource_index/package_run_dependencies/robotiq_driver
+[360.768s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/ament_index/resource_index/parent_prefix_path/robotiq_driver
+[360.768s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/environment/ament_prefix_path.sh
+[360.772s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/environment/ament_prefix_path.dsv
+[360.773s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/environment/path.sh
+[360.774s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/environment/path.dsv
+[360.775s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/local_setup.bash
+[360.779s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/local_setup.sh
+[360.780s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/local_setup.zsh
+[360.781s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/local_setup.dsv
+[360.786s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/package.dsv
+[360.787s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/ament_index/resource_index/packages/robotiq_driver
+[360.788s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/robotiq_driver
+[360.790s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/cmake/robotiq_driver_targetsExport.cmake
+[360.791s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/cmake/robotiq_driver_targetsExport-release.cmake
+[360.792s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/cmake/ament_cmake_export_targets-extras.cmake
+[360.795s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[360.796s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[360.797s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[360.798s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/cmake/robotiq_driverConfig.cmake
+[360.813s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/cmake/robotiq_driverConfig-version.cmake
+[360.814s] -- Installing: /home/luka/ws_moveit/install/robotiq_driver/share/robotiq_driver/package.xml
+[360.815s] Invoked command in '/home/luka/ws_moveit/build/robotiq_driver' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/luka/ws_moveit/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/luka/ws_moveit/build/robotiq_driver

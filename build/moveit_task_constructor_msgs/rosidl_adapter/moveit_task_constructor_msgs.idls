@@ -1,0 +1,12 @@
+/home/luka/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/Property.idl
+/home/luka/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/Solution.idl
+/home/luka/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/SolutionInfo.idl
+/home/luka/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/StageDescription.idl
+/home/luka/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/StageStatistics.idl
+/home/luka/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/SubSolution.idl
+/home/luka/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/SubTrajectory.idl
+/home/luka/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/TaskDescription.idl
+/home/luka/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/TaskStatistics.idl
+/home/luka/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:msg/TrajectoryExecutionInfo.idl
+/home/luka/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:srv/GetSolution.idl
+/home/luka/ws_moveit/build/moveit_task_constructor_msgs/rosidl_adapter/moveit_task_constructor_msgs:action/ExecuteTaskSolution.idl

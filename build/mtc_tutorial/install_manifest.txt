@@ -1,0 +1,17 @@
+/home/luka/ws_moveit/install/mtc_tutorial/lib/mtc_tutorial/mtc_node
+/home/luka/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/launch/pick_place_demo.launch.py
+/home/luka/ws_moveit/install/mtc_tutorial/share/ament_index/resource_index/package_run_dependencies/mtc_tutorial
+/home/luka/ws_moveit/install/mtc_tutorial/share/ament_index/resource_index/parent_prefix_path/mtc_tutorial
+/home/luka/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/environment/ament_prefix_path.sh
+/home/luka/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/environment/ament_prefix_path.dsv
+/home/luka/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/environment/path.sh
+/home/luka/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/environment/path.dsv
+/home/luka/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/local_setup.bash
+/home/luka/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/local_setup.sh
+/home/luka/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/local_setup.zsh
+/home/luka/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/local_setup.dsv
+/home/luka/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/package.dsv
+/home/luka/ws_moveit/install/mtc_tutorial/share/ament_index/resource_index/packages/mtc_tutorial
+/home/luka/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/cmake/mtc_tutorialConfig.cmake
+/home/luka/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/cmake/mtc_tutorialConfig-version.cmake
+/home/luka/ws_moveit/install/mtc_tutorial/share/mtc_tutorial/package.xml

@@ -1,0 +1,18 @@
+[100%] Built target hello_moveit_1st
+-- Install configuration: "Release"
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/lib/hello_moveit_1st/hello_moveit_1st
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/ament_index/resource_index/package_run_dependencies/hello_moveit_1st
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/ament_index/resource_index/parent_prefix_path/hello_moveit_1st
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/environment/ament_prefix_path.sh
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/environment/path.sh
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/environment/path.dsv
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/local_setup.bash
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/local_setup.sh
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/local_setup.zsh
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/local_setup.dsv
+-- Installing: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/package.dsv
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/ament_index/resource_index/packages/hello_moveit_1st
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/cmake/hello_moveit_1stConfig.cmake
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/cmake/hello_moveit_1stConfig-version.cmake
+-- Up-to-date: /home/luka/ws_moveit/install/hello_moveit_1st/share/hello_moveit_1st/package.xml

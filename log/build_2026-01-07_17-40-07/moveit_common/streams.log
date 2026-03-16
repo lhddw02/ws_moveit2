@@ -1,0 +1,29 @@
+[0.065s] Invoking command in '/home/luka/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/moveit_common
+[0.094s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.728s] -- Configuring done (0.6s)
+[0.761s] -- Generating done (0.0s)
+[0.770s] -- Build files have been written to: /home/luka/ws_moveit/build/moveit_common
+[0.782s] Invoked command in '/home/luka/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/moveit_common
+[0.786s] Invoking command in '/home/luka/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/moveit_common -- -j4 -l4
+[0.931s] Invoked command in '/home/luka/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/moveit_common -- -j4 -l4
+[0.956s] Invoking command in '/home/luka/ws_moveit/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/moveit_common
+[0.993s] -- Install configuration: "Release"
+[0.999s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[0.999s] -- Installing: /home/luka/ws_moveit/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[0.999s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[1.010s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[1.010s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_common/share/moveit_common/environment/path.sh
+[1.011s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_common/share/moveit_common/environment/path.dsv
+[1.011s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_common/share/moveit_common/local_setup.bash
+[1.011s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_common/share/moveit_common/local_setup.sh
+[1.011s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_common/share/moveit_common/local_setup.zsh
+[1.011s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_common/share/moveit_common/local_setup.dsv
+[1.011s] -- Installing: /home/luka/ws_moveit/install/moveit_common/share/moveit_common/package.dsv
+[1.011s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[1.012s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[1.012s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[1.012s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[1.012s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_common/share/moveit_common/package.xml
+[1.012s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_common/share/moveit_common/cmake
+[1.012s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[1.013s] Invoked command in '/home/luka/ws_moveit/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/moveit_common

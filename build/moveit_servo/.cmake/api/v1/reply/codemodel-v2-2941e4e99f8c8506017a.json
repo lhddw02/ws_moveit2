@@ -1,0 +1,220 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-bb13c03853433cfefe6f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "moveit_servo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_joint_jog::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_joint_jog-Release-e9519928f7abee55d048.json",
+					"name" : "demo_joint_jog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_pose::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_pose-Release-bdd208a4485acc3b812c.json",
+					"name" : "demo_pose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_twist::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_twist-Release-02fc78270fb9f1080ac5.json",
+					"name" : "demo_twist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-eeefb167aae967ee9137.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-909bac762c2d5868fc3c.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_servo_cpp_integration_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_servo_cpp_integration_test-Release-311d66a51de824cf5efa.json",
+					"name" : "moveit_servo_cpp_integration_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_servo_lib_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_servo_lib_cpp-Release-ca68b549b16cf52fe081.json",
+					"name" : "moveit_servo_lib_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_servo_lib_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_servo_lib_parameters-Release-6a9b3d3c5b5ee3279e32.json",
+					"name" : "moveit_servo_lib_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_servo_lib_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_servo_lib_ros-Release-66762b03b2cd1a202ce2.json",
+					"name" : "moveit_servo_lib_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_servo_ros_integration_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_servo_ros_integration_test-Release-17a11bd2908357145328.json",
+					"name" : "moveit_servo_ros_integration_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_servo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_servo_uninstall-Release-1dc62fba154aa78fc3cb.json",
+					"name" : "moveit_servo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_servo_utils_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_servo_utils_test-Release-a591189ca62ca3c6caec.json",
+					"name" : "moveit_servo_utils_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_keyboard_input::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_keyboard_input-Release-cc0e4a74e2fdd791cf38.json",
+					"name" : "servo_keyboard_input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servo_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servo_node-Release-745a80358c52b120dd95.json",
+					"name" : "servo_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-9f0d6f4ba5ca66c1ca52.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/luka/ws_moveit/build/moveit_servo",
+		"source" : "/home/luka/ws_moveit/src/moveit2/moveit_ros/moveit_servo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

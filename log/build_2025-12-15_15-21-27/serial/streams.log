@@ -1,0 +1,59 @@
+[0.053s] Invoking command in '/home/luka/ws_moveit/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/serial -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/serial
+[0.509s] -- The C compiler identification is GNU 13.3.0
+[0.946s] -- The CXX compiler identification is GNU 13.3.0
+[1.051s] -- Detecting C compiler ABI info
+[1.710s] -- Detecting C compiler ABI info - done
+[1.798s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.799s] -- Detecting C compile features
+[1.803s] -- Detecting C compile features - done
+[1.871s] -- Detecting CXX compiler ABI info
+[2.698s] -- Detecting CXX compiler ABI info - done
+[2.791s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.796s] -- Detecting CXX compile features
+[2.801s] -- Detecting CXX compile features - done
+[2.831s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.359s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.904s] -- Configuring done (5.8s)
+[5.936s] -- Generating done (0.0s)
+[5.952s] -- Build files have been written to: /home/luka/ws_moveit/build/serial
+[5.996s] Invoked command in '/home/luka/ws_moveit/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/serial -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/serial
+[6.002s] Invoking command in '/home/luka/ws_moveit/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/serial -- -j4 -l4
+[6.388s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[12.199s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[20.130s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[28.135s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[28.976s] [100%] Built target serial
+[29.050s] Invoked command in '/home/luka/ws_moveit/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/serial -- -j4 -l4
+[29.056s] Invoking command in '/home/luka/ws_moveit/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/serial
+[29.110s] -- Install configuration: "Release"
+[29.113s] -- Installing: /home/luka/ws_moveit/install/serial/lib/libserial.a
+[29.115s] -- Installing: /home/luka/ws_moveit/install/serial/include
+[29.117s] -- Installing: /home/luka/ws_moveit/install/serial/include/serial
+[29.121s] -- Installing: /home/luka/ws_moveit/install/serial/include/serial/v8stdint.h
+[29.122s] -- Installing: /home/luka/ws_moveit/install/serial/include/serial/serial.h
+[29.124s] -- Installing: /home/luka/ws_moveit/install/serial/include/serial/impl
+[29.125s] -- Installing: /home/luka/ws_moveit/install/serial/include/serial/impl/unix.h
+[29.128s] -- Installing: /home/luka/ws_moveit/install/serial/include/serial/impl/win.h
+[29.130s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/environment/library_path.sh
+[29.132s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/environment/library_path.dsv
+[29.135s] -- Installing: /home/luka/ws_moveit/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[29.138s] -- Installing: /home/luka/ws_moveit/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[29.142s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/environment/ament_prefix_path.sh
+[29.145s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/environment/ament_prefix_path.dsv
+[29.146s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/environment/path.sh
+[29.148s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/environment/path.dsv
+[29.151s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/local_setup.bash
+[29.153s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/local_setup.sh
+[29.155s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/local_setup.zsh
+[29.158s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/local_setup.dsv
+[29.161s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/package.dsv
+[29.163s] -- Installing: /home/luka/ws_moveit/install/serial/share/ament_index/resource_index/packages/serial
+[29.165s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/cmake/export_serialExport.cmake
+[29.167s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/cmake/export_serialExport-release.cmake
+[29.170s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.172s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[29.174s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/cmake/ament_cmake_export_targets-extras.cmake
+[29.177s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/cmake/serialConfig.cmake
+[29.179s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/cmake/serialConfig-version.cmake
+[29.181s] -- Installing: /home/luka/ws_moveit/install/serial/share/serial/package.xml
+[29.192s] Invoked command in '/home/luka/ws_moveit/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/serial

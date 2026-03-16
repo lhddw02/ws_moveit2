@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3b0a9dc12e035eaf28e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "yolov8_obb_msgs__py",
+					"jsonFile" : "directory-yolov8_obb_msgs__py-19798e3c5cda0e3262ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/luka/ws_moveit/build/yolov8_obb_msgs/yolov8_obb_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "yolov8_obb_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_yolov8_obb_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_yolov8_obb_msgs_egg-6faabc944f05fbcb07c8.json",
+					"name" : "ament_cmake_python_build_yolov8_obb_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_yolov8_obb_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_yolov8_obb_msgs-2348ccd2eb20c2579490.json",
+					"name" : "ament_cmake_python_copy_yolov8_obb_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e90cd515cf4167be7cd9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_obb_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_obb_msgs-86867373fd965290cc2b.json",
+					"name" : "yolov8_obb_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_obb_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_obb_msgs__cpp-3e622c7261dedfc739bd.json",
+					"name" : "yolov8_obb_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "yolov8_obb_msgs__py::@7712af1285af50eb09ba",
+					"jsonFile" : "target-yolov8_obb_msgs__py-737d6ec0b27d07b0c5f2.json",
+					"name" : "yolov8_obb_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_obb_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_obb_msgs__rosidl_generator_c-a0b871918a4d9b96ec9e.json",
+					"name" : "yolov8_obb_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_obb_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_obb_msgs__rosidl_generator_py-c280a5f8b3720cd1ef30.json",
+					"name" : "yolov8_obb_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_obb_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_obb_msgs__rosidl_generator_type_description-1d59424a033436851a57.json",
+					"name" : "yolov8_obb_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_obb_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_obb_msgs__rosidl_typesupport_c-80d8d6123949caac9f5d.json",
+					"name" : "yolov8_obb_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_obb_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_obb_msgs__rosidl_typesupport_cpp-505166512dde15b14120.json",
+					"name" : "yolov8_obb_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_obb_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_obb_msgs__rosidl_typesupport_fastrtps_c-537c446a8d4444e70ca9.json",
+					"name" : "yolov8_obb_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_obb_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_obb_msgs__rosidl_typesupport_fastrtps_cpp-1e286fb05634c1baa912.json",
+					"name" : "yolov8_obb_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_obb_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_obb_msgs__rosidl_typesupport_introspection_c-0cada8ef74b4b83f9da5.json",
+					"name" : "yolov8_obb_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_obb_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_obb_msgs__rosidl_typesupport_introspection_cpp-51e51084b1807c30118b.json",
+					"name" : "yolov8_obb_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_obb_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_obb_msgs_s__rosidl_typesupport_c-af70f7b7e8d46f1acbe0.json",
+					"name" : "yolov8_obb_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_obb_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_obb_msgs_s__rosidl_typesupport_fastrtps_c-c5ea94c1e3b6e376ecae.json",
+					"name" : "yolov8_obb_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_obb_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_obb_msgs_s__rosidl_typesupport_introspection_c-fa923ad57fa13df9cc08.json",
+					"name" : "yolov8_obb_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_obb_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_obb_msgs_uninstall-fb8cebe6a65c93462cb0.json",
+					"name" : "yolov8_obb_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/luka/ws_moveit/build/yolov8_obb_msgs",
+		"source" : "/home/luka/ws_moveit/src/yolov8_obb_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

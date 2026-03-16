@@ -1,0 +1,8 @@
+source;share/plan_around_obj/hook/cmake_prefix_path.ps1
+source;share/plan_around_obj/hook/cmake_prefix_path.dsv
+source;share/plan_around_obj/hook/cmake_prefix_path.sh
+source;share/plan_around_obj/local_setup.bash
+source;share/plan_around_obj/local_setup.dsv
+source;share/plan_around_obj/local_setup.ps1
+source;share/plan_around_obj/local_setup.sh
+source;share/plan_around_obj/local_setup.zsh

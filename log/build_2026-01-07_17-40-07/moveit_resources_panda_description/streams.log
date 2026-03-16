@@ -1,0 +1,52 @@
+[0.077s] Invoking command in '/home/luka/ws_moveit/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/moveit_resources/panda_description -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/moveit_resources_panda_description
+[0.121s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.971s] -- Configuring done (0.9s)
+[0.990s] -- Generating done (0.0s)
+[0.997s] -- Build files have been written to: /home/luka/ws_moveit/build/moveit_resources_panda_description
+[1.011s] Invoked command in '/home/luka/ws_moveit/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/moveit_resources/panda_description -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/moveit_resources_panda_description
+[1.012s] Invoking command in '/home/luka/ws_moveit/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/moveit_resources_panda_description -- -j4 -l4
+[1.681s] Invoked command in '/home/luka/ws_moveit/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/moveit_resources_panda_description -- -j4 -l4
+[1.686s] Invoking command in '/home/luka/ws_moveit/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/moveit_resources_panda_description
+[1.703s] -- Install configuration: "Release"
+[1.707s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_description
+[1.707s] -- Installing: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_description
+[1.707s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.sh
+[1.708s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.dsv
+[1.708s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.sh
+[1.708s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.dsv
+[1.709s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.bash
+[1.709s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.sh
+[1.711s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.zsh
+[1.713s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.dsv
+[1.717s] -- Installing: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv
+[1.719s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/ament_index/resource_index/packages/moveit_resources_panda_description
+[1.729s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig.cmake
+[1.729s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig-version.cmake
+[1.730s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.xml
+[1.730s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes
+[1.730s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual
+[1.730s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/hand.dae
+[1.730s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link3.dae
+[1.730s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link2.dae
+[1.730s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link5.dae
+[1.731s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link7.dae
+[1.732s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link4.dae
+[1.732s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/finger.dae
+[1.733s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link0.dae
+[1.733s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link6.dae
+[1.733s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link1.dae
+[1.733s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision
+[1.733s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link4.stl
+[1.733s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link2.stl
+[1.733s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link1.stl
+[1.734s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link0.stl
+[1.734s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/finger.stl
+[1.734s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link6.stl
+[1.738s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link5.stl
+[1.739s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link7.stl
+[1.739s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link3.stl
+[1.739s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/hand.stl
+[1.740s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf
+[1.758s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf/panda.urdf
+[1.759s] -- Up-to-date: /home/luka/ws_moveit/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf/panda.urdf.xacro
+[1.825s] Invoked command in '/home/luka/ws_moveit/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luka/ws_moveit/install/hello_moveit_py:/home/luka/ws_moveit/install/moveit_configs_utils:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/moveit_resources_panda_description

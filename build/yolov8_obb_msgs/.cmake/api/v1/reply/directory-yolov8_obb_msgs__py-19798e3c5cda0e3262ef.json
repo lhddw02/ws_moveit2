@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "yolov8_obb_msgs__py",
+		"source" : "/home/luka/ws_moveit/build/yolov8_obb_msgs/yolov8_obb_msgs__py"
+	}
+}

@@ -1,0 +1,149 @@
+[0.061s] Invoking command in '/home/luka/ws_moveit/build/kortex_description': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/robotiq_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/robotiq_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/ros2_kortex/kortex_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/kortex_description
+[0.425s] -- The C compiler identification is GNU 13.3.0
+[0.766s] -- The CXX compiler identification is GNU 13.3.0
+[0.852s] -- Detecting C compiler ABI info
+[1.382s] -- Detecting C compiler ABI info - done
+[1.466s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.467s] -- Detecting C compile features
+[1.471s] -- Detecting C compile features - done
+[1.528s] -- Detecting CXX compiler ABI info
+[2.132s] -- Detecting CXX compiler ABI info - done
+[2.215s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.217s] -- Detecting CXX compile features
+[2.220s] -- Detecting CXX compile features - done
+[2.251s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.331s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.821s] -- Configuring done (4.7s)
+[4.842s] -- Generating done (0.0s)
+[4.855s] -- Build files have been written to: /home/luka/ws_moveit/build/kortex_description
+[4.886s] Invoked command in '/home/luka/ws_moveit/build/kortex_description' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/robotiq_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/robotiq_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/ros2_kortex/kortex_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/kortex_description
+[4.892s] Invoking command in '/home/luka/ws_moveit/build/kortex_description': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/robotiq_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/robotiq_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/kortex_description -- -j4 -l4
+[5.145s] Invoked command in '/home/luka/ws_moveit/build/kortex_description' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/robotiq_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/robotiq_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/kortex_description -- -j4 -l4
+[5.152s] Invoking command in '/home/luka/ws_moveit/build/kortex_description': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/robotiq_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/robotiq_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/kortex_description
+[5.223s] -- Install configuration: "Release"
+[5.225s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms
+[5.230s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3
+[5.232s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof
+[5.234s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/urdf
+[5.236s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/urdf/gen3_macro.xacro
+[5.237s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/urdf/kortex.ros2_control.xacro
+[5.239s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/urdf/gen3_transmission_macro.xacro
+[5.242s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes
+[5.242s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/bracelet_with_vision_link.STL
+[5.257s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/shoulder_link.STL
+[5.262s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/bicep_link.STL
+[5.266s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/spherical_wrist_2_link.STL
+[5.269s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/base_link.STL
+[5.274s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/spherical_wrist_1_link.STL
+[5.275s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/bracelet_no_vision_link.STL
+[5.283s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/forearm_link.STL
+[5.285s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/config
+[5.287s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/config/gazebo_initial_joint_positions.yaml
+[5.290s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/config/joint_limits.yaml
+[5.295s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/config/twist_limits.yaml
+[5.296s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/6dof/config/ros2_controllers.yaml
+[5.299s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof
+[5.300s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/urdf
+[5.301s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/urdf/gen3_macro.xacro
+[5.307s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/urdf/kortex.ros2_control.xacro
+[5.308s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/urdf/gen3_transmission_macro.xacro
+[5.309s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes
+[5.310s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_2_link.dae
+[5.318s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/bracelet_no_vision_link.dae
+[5.319s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/half_arm_2_link.dae
+[5.323s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_1_link.dae
+[5.327s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/shoulder_link.dae
+[5.328s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/forearm_link.dae
+[5.329s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/half_arm_2_link.STL
+[5.333s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/base_link.dae
+[5.334s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/half_arm_1_link.STL
+[5.337s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/half_arm_1_link.dae
+[5.339s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/bracelet_with_vision_link.STL
+[5.347s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/shoulder_link.STL
+[5.350s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_2_link.STL
+[5.355s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/bracelet_with_vision_link.dae
+[5.365s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/base_link.STL
+[5.368s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_1_link.STL
+[5.369s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/end_effector_link.STL
+[5.371s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/bracelet_no_vision_link.STL
+[5.380s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/forearm_link.STL
+[5.383s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/config
+[5.387s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/config/gazebo_initial_joint_positions.yaml
+[5.388s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/config/joint_limits.yaml
+[5.388s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/config/twist_limits.yaml
+[5.389s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3/7dof/config/ros2_controllers.yaml
+[5.390s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite
+[5.395s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof
+[5.396s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/urdf
+[5.396s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/urdf/gen3_lite_macro.xacro
+[5.402s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/urdf/kortex.ros2_control.xacro
+[5.403s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/urdf/gen3_lite_transmission_macro.xacro
+[5.404s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes
+[5.405s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/upper_wrist_link.STL
+[5.407s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/arm_link.STL
+[5.408s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/shoulder_link.STL
+[5.409s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/base_link.STL
+[5.418s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/lower_wrist_link.STL
+[5.420s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/forearm_link.STL
+[5.424s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/config
+[5.427s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/config/joint_limits.yaml
+[5.428s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/config/twist_limits.yaml
+[5.432s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/config/ros2_controllers.yaml
+[5.433s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers
+[5.436s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140
+[5.437s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140/README.md
+[5.442s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140/LICENSE
+[5.443s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140/urdf
+[5.443s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140/urdf/robotiq_2f_140_macro.xacro
+[5.446s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f
+[5.447s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf
+[5.448s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f.ros2_control.xacro
+[5.453s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f_macro.xacro
+[5.454s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf/GEN3-LITE-GRIPPER_URDF_SIMPLIFIED_V2.urdf
+[5.455s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f_transmission_macro.xacro
+[5.456s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes
+[5.460s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/left_finger_dist_link.STL
+[5.460s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/gripper_base_link.STL
+[5.461s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/right_finger_prox_link.STL
+[5.462s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/left_finger_prox_link.STL
+[5.466s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/right_finger_dist_link.STL
+[5.467s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/config
+[5.470s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/config/joint_limits.yaml
+[5.473s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85
+[5.474s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85/README.md
+[5.475s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85/LICENSE
+[5.478s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85/urdf
+[5.480s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85/urdf/robotiq_2f_85_macro.xacro
+[5.481s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/launch
+[5.485s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/launch/view_robot.launch.py
+[5.486s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/multiple_robots
+[5.487s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/multiple_robots/kortex_dual_robots.xacro
+[5.491s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/robots
+[5.495s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/robots/gen3_robotiq_2f_140.xacro
+[5.496s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/robots/gen3_robotiq_2f_85.xacro
+[5.500s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/robots/gen3_lite.urdf
+[5.502s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/robots/gen3_lite_gen3_lite_2f.xacro
+[5.503s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/robots/gen3_2f85.urdf
+[5.506s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/robots/kortex_robot.xacro
+[5.508s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/robots/gen3.xacro
+[5.509s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/robots/kinova.urdf.xacro
+[5.515s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/rviz
+[5.516s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/rviz/view_robot.rviz
+[5.516s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/config
+[5.517s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/config/initial_positions.yaml
+[5.519s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/ament_index/resource_index/package_run_dependencies/kortex_description
+[5.521s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/ament_index/resource_index/parent_prefix_path/kortex_description
+[5.522s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/environment/ament_prefix_path.sh
+[5.523s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/environment/ament_prefix_path.dsv
+[5.524s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/environment/path.sh
+[5.524s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/environment/path.dsv
+[5.531s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/local_setup.bash
+[5.532s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/local_setup.sh
+[5.532s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/local_setup.zsh
+[5.535s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/local_setup.dsv
+[5.536s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/package.dsv
+[5.537s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/ament_index/resource_index/packages/kortex_description
+[5.538s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/cmake/kortex_descriptionConfig.cmake
+[5.546s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/cmake/kortex_descriptionConfig-version.cmake
+[5.546s] -- Installing: /home/luka/ws_moveit/install/kortex_description/share/kortex_description/package.xml
+[5.547s] Invoked command in '/home/luka/ws_moveit/build/kortex_description' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/robotiq_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/robotiq_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/kortex_description

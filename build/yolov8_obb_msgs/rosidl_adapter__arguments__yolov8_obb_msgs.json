@@ -1,0 +1,7 @@
+{
+  "package_name": "yolov8_obb_msgs",
+  "non_idl_tuples": [
+    "/home/luka/ws_moveit/src/yolov8_obb_msgs:msg/InferenceResult.msg",
+    "/home/luka/ws_moveit/src/yolov8_obb_msgs:msg/Yolov8Inference.msg"
+  ]
+}

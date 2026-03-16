@@ -1,0 +1,66 @@
+[0.148s] Invoking command in '/home/luka/ws_moveit/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/rviz_marker_tools
+[0.664s] -- The C compiler identification is GNU 13.3.0
+[1.179s] -- The CXX compiler identification is GNU 13.3.0
+[1.356s] -- Detecting C compiler ABI info
+[1.932s] -- Detecting C compiler ABI info - done
+[2.014s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.016s] -- Detecting C compile features
+[2.019s] -- Detecting C compile features - done
+[2.074s] -- Detecting CXX compiler ABI info
+[2.674s] -- Detecting CXX compiler ABI info - done
+[2.724s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.726s] -- Detecting CXX compile features
+[2.729s] -- Detecting CXX compile features - done
+[2.751s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.680s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.600s] -- Found moveit_common: 2.14.1 (/home/luka/ws_moveit/install/moveit_common/share/moveit_common/cmake)
+[5.167s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[5.569s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.784s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.897s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.062s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.653s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[6.690s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[7.339s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[7.506s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[7.669s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.321s] -- Found tf2_eigen: 0.36.16 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[10.037s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[10.606s] -- Configuring done (10.3s)
+[10.766s] -- Generating done (0.1s)
+[10.829s] -- Build files have been written to: /home/luka/ws_moveit/build/rviz_marker_tools
+[10.928s] Invoked command in '/home/luka/ws_moveit/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/rviz_marker_tools
+[10.940s] Invoking command in '/home/luka/ws_moveit/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/rviz_marker_tools -- -j4 -l4
+[11.478s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_marker_tools.dir/src/marker_creation.cpp.o[0m
+[56.069s] [100%] [32m[1mLinking CXX shared library librviz_marker_tools.so[0m
+[57.121s] [100%] Built target rviz_marker_tools
+[57.198s] Invoked command in '/home/luka/ws_moveit/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/rviz_marker_tools -- -j4 -l4
+[57.204s] Invoking command in '/home/luka/ws_moveit/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/rviz_marker_tools
+[57.287s] -- Install configuration: "Release"
+[57.289s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/include
+[57.289s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/include/rviz_marker_tools
+[57.293s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/include/rviz_marker_tools/marker_creation.h
+[57.294s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/lib/librviz_marker_tools.so
+[57.297s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/rviz_marker_tools/lib/librviz_marker_tools.so" to ""
+[57.298s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.sh
+[57.300s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.dsv
+[57.302s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/ament_index/resource_index/package_run_dependencies/rviz_marker_tools
+[57.303s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/ament_index/resource_index/parent_prefix_path/rviz_marker_tools
+[57.305s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.sh
+[57.308s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.dsv
+[57.313s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.sh
+[57.313s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.dsv
+[57.314s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.bash
+[57.315s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.sh
+[57.319s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.zsh
+[57.320s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.dsv
+[57.321s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/package.dsv
+[57.322s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/ament_index/resource_index/packages/rviz_marker_tools
+[57.325s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport.cmake
+[57.328s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport-release.cmake
+[57.333s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_targets-extras.cmake
+[57.333s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[57.335s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig.cmake
+[57.336s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig-version.cmake
+[57.337s] -- Installing: /home/luka/ws_moveit/install/rviz_marker_tools/share/rviz_marker_tools/package.xml
+[57.341s] Invoked command in '/home/luka/ws_moveit/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luka/ws_moveit/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/rviz_marker_tools

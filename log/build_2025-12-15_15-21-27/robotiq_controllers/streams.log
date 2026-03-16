@@ -1,0 +1,78 @@
+[0.102s] Invoking command in '/home/luka/ws_moveit/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/ros2_robotiq_gripper/robotiq_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/robotiq_controllers
+[0.673s] -- The C compiler identification is GNU 13.3.0
+[1.127s] -- The CXX compiler identification is GNU 13.3.0
+[1.280s] -- Detecting C compiler ABI info
+[2.063s] -- Detecting C compiler ABI info - done
+[2.158s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.160s] -- Detecting C compile features
+[2.167s] -- Detecting C compile features - done
+[2.249s] -- Detecting CXX compiler ABI info
+[3.102s] -- Detecting CXX compiler ABI info - done
+[3.175s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.176s] -- Detecting CXX compile features
+[3.179s] -- Detecting CXX compile features - done
+[3.205s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.217s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.039s] -- Found controller_interface: 4.39.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+[5.478s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[5.603s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.757s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.911s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.563s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[7.967s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[7.993s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[8.192s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[8.573s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[8.595s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[8.705s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[8.727s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[8.784s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[8.863s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.723s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[10.859s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[11.526s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.530s] -- Configured cppcheck include dirs: /home/luka/ws_moveit/src/ros2_robotiq_gripper/robotiq_controllers/include
+[11.531s] -- Configured cppcheck exclude dirs and/or files: 
+[11.535s] -- Added test 'lint_cmake' to check CMake code style
+[11.555s] -- Configuring done (11.4s)
+[11.717s] -- Generating done (0.1s)
+[11.753s] -- Build files have been written to: /home/luka/ws_moveit/build/robotiq_controllers
+[11.812s] Invoked command in '/home/luka/ws_moveit/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luka/ws_moveit/src/ros2_robotiq_gripper/robotiq_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/luka/ws_moveit/install/robotiq_controllers
+[11.816s] Invoking command in '/home/luka/ws_moveit/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/robotiq_controllers -- -j4 -l4
+[12.141s] [ 50%] [32mBuilding CXX object CMakeFiles/robotiq_controllers.dir/src/robotiq_activation_controller.cpp.o[0m
+[39.652s] [100%] [32m[1mLinking CXX shared library librobotiq_controllers.so[0m
+[40.538s] [100%] Built target robotiq_controllers
+[40.601s] Invoked command in '/home/luka/ws_moveit/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luka/ws_moveit/build/robotiq_controllers -- -j4 -l4
+[40.606s] Invoking command in '/home/luka/ws_moveit/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/robotiq_controllers
+[40.649s] -- Install configuration: "Release"
+[40.650s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/controller_plugins.xml
+[40.650s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/lib/librobotiq_controllers.so
+[40.653s] -- Set non-toolchain portion of runtime path of "/home/luka/ws_moveit/install/robotiq_controllers/lib/librobotiq_controllers.so" to ""
+[40.654s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/include
+[40.654s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/include/robotiq_controllers
+[40.655s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/include/robotiq_controllers/robotiq_activation_controller.hpp
+[40.656s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/environment/library_path.sh
+[40.657s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/environment/library_path.dsv
+[40.658s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/ament_index/resource_index/package_run_dependencies/robotiq_controllers
+[40.659s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/ament_index/resource_index/parent_prefix_path/robotiq_controllers
+[40.662s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/environment/ament_prefix_path.sh
+[40.665s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/environment/ament_prefix_path.dsv
+[40.666s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/environment/path.sh
+[40.667s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/environment/path.dsv
+[40.669s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/local_setup.bash
+[40.670s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/local_setup.sh
+[40.671s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/local_setup.zsh
+[40.671s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/local_setup.dsv
+[40.672s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/package.dsv
+[40.676s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/ament_index/resource_index/packages/robotiq_controllers
+[40.677s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/robotiq_controllers
+[40.677s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/cmake/export_robotiq_controllersExport.cmake
+[40.678s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/cmake/export_robotiq_controllersExport-release.cmake
+[40.681s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.682s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[40.682s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[40.683s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.684s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/cmake/robotiq_controllersConfig.cmake
+[40.684s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/cmake/robotiq_controllersConfig-version.cmake
+[40.685s] -- Installing: /home/luka/ws_moveit/install/robotiq_controllers/share/robotiq_controllers/package.xml
+[40.686s] Invoked command in '/home/luka/ws_moveit/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luka/ws_moveit/build/robotiq_controllers

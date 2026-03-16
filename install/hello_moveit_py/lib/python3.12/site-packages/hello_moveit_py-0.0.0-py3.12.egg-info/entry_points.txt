@@ -1,0 +1,2 @@
+[console_scripts]
+hello_moveit_py = hello_moveit_py.hello_moveit_py:main
